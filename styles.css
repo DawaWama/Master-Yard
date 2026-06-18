@@ -234,11 +234,171 @@ h3 {
   display: grid;
 }
 
-.services-grid .card img {
+.services-grid .card img,
+#gallery-subcategories .card img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
+}
+
+#gallery-subcategories {
+  margin-bottom: 2rem;
+}
+
+.gallery-back {
+  margin: 0 0 1rem;
+}
+
+.gallery-back a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gallery-back a:hover,
+.gallery-back a:focus-visible {
+  text-decoration: underline;
+}
+
+.gallery-section-heading {
+  margin: 0 0 1rem;
+}
+
+.service-detail {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.service-lead {
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 1.5rem;
+}
+
+.service-detail-heading {
+  margin: 2rem 0 1rem;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.service-steps,
+.service-flow,
+.service-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.service-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.service-step,
+.service-flow article,
+.service-benefit {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+  box-shadow: 0 12px 30px rgba(11, 77, 54, 0.05);
+}
+
+.service-type {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0;
+  box-shadow: 0 12px 30px rgba(11, 77, 54, 0.05);
+  overflow: hidden;
+}
+
+.service-type-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f3f7f1;
+}
+
+.service-type h4,
+.service-type p {
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+}
+
+.service-type h4 {
+  margin: 1rem 0 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--primary);
+}
+
+.service-type p {
+  margin: 0 0 1.15rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.service-step h4,
+.service-flow h4,
+.service-benefit h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.service-step p,
+.service-flow p,
+.service-benefit p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.service-stages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.service-stages li {
+  display: grid;
+  gap: 0.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1rem 1.15rem;
+}
+
+.service-stages strong {
+  color: var(--primary);
+}
+
+.service-stages span {
+  color: var(--muted);
+}
+
+.service-about {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(221, 234, 215, 0.55), rgba(255, 255, 255, 0.95));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.service-about h3 {
+  margin-top: 0;
+}
+
+.service-about p:last-child {
+  margin-bottom: 0;
+}
+
+.service-scroll-hint {
+  display: none;
 }
 
 .card figcaption {
@@ -454,6 +614,123 @@ h3 {
 
   .contact-note {
     padding-left: 0;
+  }
+
+  .gallery h2,
+  #gallery-title {
+    font-size: clamp(1.5rem, 6.5vw, 2rem);
+    line-height: 1.2;
+  }
+
+  #gallery-description {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .service-detail {
+    margin: 1rem 0 1.75rem;
+  }
+
+  .service-detail-heading {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1.2rem;
+  }
+
+  .service-detail-heading--scroll {
+    margin-bottom: 0.35rem;
+  }
+
+  .service-scroll-hint {
+    display: block;
+    margin: 0 0 0.85rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .service-types {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 0.85rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0 1rem 0.35rem;
+  }
+
+  .service-types::-webkit-scrollbar {
+    display: none;
+  }
+
+  .service-type {
+    flex: 0 0 min(88vw, 300px);
+    scroll-snap-align: start;
+  }
+
+  .service-type h4,
+  .service-type p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .service-type h4 {
+    margin-top: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .service-type p {
+    font-size: 0.88rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-steps,
+  .service-flow,
+  .service-benefits {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .service-step,
+  .service-flow article,
+  .service-benefit {
+    padding: 1rem;
+  }
+
+  .service-lead {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-stages li {
+    padding: 0.9rem 1rem;
+  }
+
+  .service-about {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .gallery-section-heading {
+    font-size: 1.15rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lightbox-overlay {
+    padding: 0.75rem;
+  }
+
+  .lightbox-frame {
+    border-radius: 20px;
+  }
+
+  .lightbox-close {
+    right: 0.65rem;
+    top: 0.65rem;
   }
 }
 
