@@ -211,7 +211,8 @@ h3 {
 }
 
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -231,7 +232,10 @@ h3 {
 
 .card figure {
   margin: 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100%;
 }
 
 .services-grid .card img,
@@ -405,6 +409,9 @@ h3 {
 }
 
 .card figcaption {
+  flex: 1;
+  display: flex;
+  align-items: center;
   padding: 1rem 1.15rem 1.15rem;
   font-size: 1rem;
   font-weight: 700;
