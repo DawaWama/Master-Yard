@@ -315,10 +315,13 @@ h3 {
 }
 
 .service-type-image {
-  width: 100%;
-  height: auto;
+  width: auto;
+  max-width: 88%;
+  max-height: 11rem;
+  margin: 1rem auto 0;
+  object-fit: contain;
   display: block;
-  background: #f3f7f1;
+  background: transparent;
 }
 
 .service-type h4,
@@ -665,8 +668,14 @@ h3 {
   }
 
   .service-type {
-    flex: 0 0 min(88vw, 300px);
+    flex: 0 0 min(82vw, 280px);
     scroll-snap-align: start;
+  }
+
+  .service-type-image {
+    max-height: 7.5rem;
+    max-width: 75%;
+    margin: 0.75rem auto 0;
   }
 
   .service-type h4,
@@ -676,7 +685,7 @@ h3 {
   }
 
   .service-type h4 {
-    margin-top: 0.85rem;
+    margin-top: 0.65rem;
     font-size: 1rem;
   }
 
