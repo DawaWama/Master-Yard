@@ -100,6 +100,19 @@
     var worksGallery = document.getElementById('works-gallery');
 
     var roadAsphaltPavingContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/roadAsphaltPaving/cower.png" alt="Асфальтирование дорог" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Асфальтирование дорог</h3>' +
+            '<p class="service-cover-desc">Устройство и восстановление асфальтового покрытия на автомобильных дорогах: подготовка основания, укладка асфальтобетонной смеси, уплотнение и выравнивание.</p>' +
+            '<p class="service-cover-lead">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды асфальтирования</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
@@ -159,6 +172,202 @@
         '<p>Мы достигаем этого за счёт постоянного совершенствования процессов строительства и внедрения современных технологий и решений. Рынок меняется — и мы развиваемся вместе с ним.</p>' +
       '</div>';
 
+    var potholeRepairContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/potholeRepair/cower.png" alt="Ямочный ремонт" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Ямочный ремонт</h3>' +
+            '<p class="service-cover-desc">Локальный ремонт ям, выбоин и разрушенных участков асфальтового покрытия для восстановления ровной и безопасной поверхности.</p>' +
+            '<p class="service-cover-lead">Ямочный ремонт асфальтового<br>покрытия</p>' +
+            '<p class="service-cover-secondary">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Вид ремонта</h3>' +
+      '<ol class="service-stages service-repair-types">' +
+        '<li><span>Нарезка швов в асфальтобетонне алмазными дисками</span></li>' +
+        '<li><span>Демонтаж асфальтобетонного покрытия 5 см с вывозом скола на утилизацию</span></li>' +
+        '<li><span>Обработка основания и кромки карты битумной эмульсией</span></li>' +
+        '<li><span>Ямочный ремонт — мелкозернистый асфальтобетон (с материалом)</span></li>' +
+      '</ol>' +
+      '<p class="service-lead">Ямочный ремонт вместо нового асфальта? Да!</p>' +
+      '<div class="service-advantages">' +
+        '<article class="service-advantage"><p>Работы проводятся<br>очень быстро</p></article>' +
+        '<article class="service-advantage"><p>Не нужно полностью<br>перекрывать дороги</p></article>' +
+        '<article class="service-advantage"><p>Не нужно использовать<br>тяжелую спецтехнику</p></article>' +
+        '<article class="service-advantage"><p>Не требует больших<br>экономических затрат</p></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтирование именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза, катки асфальтные, грунтовые экскаваторы и другое оборудование. <strong>38 единиц спецтехники</strong>.</p></article>' +
+        '<article class="service-benefit"><h4>Экономия на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным — оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
+      '</div>';
+
+    var asphaltPavingAreasContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/asphaltPavingAreas/cower.png" alt="Асфальтирование территорий" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Асфальтирование территорий</h3>' +
+            '<p class="service-cover-desc">Асфальтирование парковок, складских, производственных и общественных территорий с учётом нагрузки и требований к покрытию.</p>' +
+            '<p class="service-cover-lead">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтирование именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза, катки асфальтные, грунтовые экскаваторы и другое оборудование. <strong>38 единиц спецтехники</strong>.</p></article>' +
+        '<article class="service-benefit"><h4>Экономия на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным — оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки асфальта и порядок цен</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/1_4.png" alt="Асфальтирование на готовом основании" />' +
+          '<h4>Асфальтирование<br>на готовом основании</h4>' +
+          '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/2_4.png" alt="Асфальтирование с выравнивающим слоем" />' +
+          '<h4>Асфальтирование с<br>выравнивающим слоем</h4>' +
+          '<p>Если на основании есть ямы, требуется предварительное вываривание технологическим слоем. После чего производится укладка финишного слоя асфальта.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/3_4.png" alt="Асфальтирование по щебёночному основанию" />' +
+          '<h4>Асфальтирование по щебёночному основанию</h4>' +
+          '<p>Бюджетный вариант асфальтирования, используется при необходимости создать с нуля крепкое основание в условиях ограниченного бюджета.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/4_4.png" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
+          '<h4>Асфальтирование по<br>щебёночно-песчаному основанию</h4>' +
+          '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
+        '</article>' +
+      '</div>';
+
+    var plotAsphaltPavingContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/plotAsphaltPaving/cower.png" alt="Асфальтирование участков" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Асфальтирование участков</h3>' +
+            '<p class="service-cover-desc">Асфальтирование частных дворов, подъездных путей и придомовых участков — аккуратно, с подготовкой основания и качественной укладкой.</p>' +
+            '<p class="service-cover-lead">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтирование именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза, катки асфальтные, грунтовые экскаваторы и другое оборудование. <strong>38 единиц спецтехники</strong>.</p></article>' +
+        '<article class="service-benefit"><h4>Экономия на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным — оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки асфальта и порядок цен</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/1_4.png" alt="Асфальтирование на готовом основании" />' +
+          '<h4>Асфальтирование<br>на готовом основании</h4>' +
+          '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/2_4.png" alt="Асфальтирование с выравнивающим слоем" />' +
+          '<h4>Асфальтирование с<br>выравнивающим слоем</h4>' +
+          '<p>Если на основании есть ямы, требуется предварительное вываривание технологическим слоем. После чего производится укладка финишного слоя асфальта.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/3_4.png" alt="Асфальтирование по щебёночному основанию" />' +
+          '<h4>Асфальтирование по щебёночному основанию</h4>' +
+          '<p>Бюджетный вариант асфальтирования, используется при необходимости создать с нуля крепкое основание в условиях ограниченного бюджета.</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSizes/4_4.png" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
+          '<h4>Асфальтирование по<br>щебёночно-песчаному основанию</h4>' +
+          '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
+        '</article>' +
+      '</div>';
+
+    var gravelingContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/graveling/cower.png" alt="Отсыпка дороги или участка щебнем" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Отсыпка дороги или участка щебнем</h3>' +
+            '<p class="service-cover-desc">Отсыпка и выравнивание дорог и участков щебнем различной фракции с формированием прочного основания под дальнейшее покрытие.</p>' +
+            '<p class="service-cover-lead">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Виды отсыпки щебня и порядок цен</h3>' +
+      '<ol class="service-stages">' +
+        '<li><strong>Вторичный щебень</strong></li>' +
+        '<li><strong>Известняковый щебень</strong></li>' +
+      '</ol>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки щебня</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
+        '</article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать отсыпку щебнем именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза, катки асфальтные, грунтовые экскаваторы и другое оборудование. <strong>38 единиц спецтехники</strong>.</p></article>' +
+        '<article class="service-benefit"><h4>Экономия на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным — оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
+      '</div>';
+
     var asphaltSubcategories = {
       roadAsphaltPaving: {
         title: 'Асфальтирование дорог',
@@ -173,21 +382,24 @@
         folder: 'asphaltSubCategory/asphaltPavingAreas/',
         thumbnail: 'asphaltSubCategory/asphaltPavingAreas/AsphaltPavingAreas.png',
         description: 'Асфальтирование парковок, складских, производственных и общественных территорий с учётом нагрузки и требований к покрытию.',
-        images: ['AsphaltPavingAreas.png']
+        content: asphaltPavingAreasContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       plotAsphaltPaving: {
         title: 'Асфальтирование участков',
         folder: 'asphaltSubCategory/plotAsphaltPaving/',
         thumbnail: 'asphaltSubCategory/plotAsphaltPaving/PlotAsphaltPaving.png',
         description: 'Асфальтирование частных дворов, подъездных путей и придомовых участков — аккуратно, с подготовкой основания и качественной укладкой.',
-        images: ['PlotAsphaltPaving.png']
+        content: plotAsphaltPavingContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       potholeRepair: {
         title: 'Ямочный ремонт',
         folder: 'asphaltSubCategory/potholeRepair/',
         thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.png',
         description: 'Локальный ремонт ям, выбоин и разрушенных участков асфальтового покрытия для восстановления ровной и безопасной поверхности.',
-        images: ['PotholeRepair.png']
+        content: potholeRepairContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       asphaltMillings: {
         title: 'Укладка асфальтной крошки',
@@ -201,7 +413,8 @@
         folder: 'asphaltSubCategory/graveling/',
         thumbnail: 'asphaltSubCategory/graveling/graveling.png',
         description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции с формированием прочного основания под дальнейшее покрытие.',
-        images: ['graveling.png']
+        content: gravelingContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       }
     };
 
@@ -286,6 +499,8 @@
       if(galleryBack) galleryBack.innerHTML = '';
       if(galleryContent) galleryContent.innerHTML = '';
       if(sectionHeading) sectionHeading.hidden = true;
+      if(title) title.hidden = false;
+      if(description) description.hidden = false;
     }
 
     if(worksGallery){
@@ -304,8 +519,22 @@
 
     if(category === 'Asphalt' && sub && asphaltSubcategories[sub]){
       var currentSub = asphaltSubcategories[sub];
-      if(title) title.textContent = currentSub.title;
-      if(description) description.textContent = currentSub.description;
+      if(title){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving'){
+          title.hidden = true;
+        } else {
+          title.hidden = false;
+          title.textContent = currentSub.title;
+        }
+      }
+      if(description){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving'){
+          description.hidden = true;
+        } else {
+          description.hidden = false;
+          description.textContent = currentSub.description;
+        }
+      }
       if(galleryContent) galleryContent.innerHTML = currentSub.content || '';
       if(help) help.innerHTML = '';
       if(galleryBack) galleryBack.innerHTML = '<a href="gallery.html?category=Asphalt">← Назад к асфальту</a>';
@@ -325,6 +554,8 @@
       if(help) help.innerHTML = '';
 
       if(category === 'Asphalt'){
+        if(title) title.hidden = false;
+        if(description) description.hidden = false;
         if(galleryBack) galleryBack.innerHTML = '';
         if(subcategoriesEl){
           subcategoriesEl.innerHTML = Object.keys(asphaltSubcategories).map(function(key){
