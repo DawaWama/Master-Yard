@@ -544,6 +544,42 @@
         '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
       '</div>';
 
+    var concretingContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Concreting/cower.jpg" alt="Бетонирование площадки и дорожек" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Бетонирование площадки<br>и дорожек</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать бетонирование именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Экономия денег на поставке материалов</h4><p>В смете по закупным - оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды бетонирования</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type1.png" alt="Бетонирование на готовом основании" /><h4>Бетонирование<br>на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type2.png" alt="Бетонирование на песчаном основании" /><h4>Бетонирование<br>на песчаном основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type3.png" alt="Бетонирование на песчано-щебеночном основании" /><h4>Бетонирование на<br>песчано - щебеночном основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type4.png" alt="Бетонирование на песчаном основании с утеплением" /><h4>Бетонирование на песчаном основании<br>с утеплением</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type5.png" alt="Бетонирование с утеплителем" /><h4>Бетонирование на песчано - щебеночном основании<br>с утеплителем</h4></article>' +
+      '</div>';
+
     var asphaltSubcategories = {
       roadAsphaltPaving: {
         title: 'Асфальтирование дорог',
@@ -648,12 +684,13 @@
         thumbnail: 'thumbnails/Дренаж и септик.png',
         images: ['Drainage.jpg']
       },
-      'Tile laying': {
-        title: 'Укладка плитки',
-        folder: 'Tile laying/',
-        description: 'Укладка плитки и тротуарной плитки.',
-        thumbnail: 'thumbnails/Укладка плитки.png',
-        images: ['Tile laying.jpeg']
+      'Concreting': {
+        title: 'Бетонирование',
+        folder: 'Concreting/',
+        description: 'Бетонирование, монолитные и отделочные работы с бетоном.',
+        thumbnail: 'thumbnails/Бетонирование.png',
+        content: concretingContent,
+        images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.png']
       }
     };
 
