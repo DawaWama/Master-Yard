@@ -445,31 +445,29 @@
         '<p>Опытные бригады, четкая организация работ и стабильно высокий результат</p>' +
       '</div>' +
       '<div class="service-about">' +
-        '<h3>Отзывы о нас</h3>' +
-        '<p>Экономия на поставке материалов</p>' +
-        '<p>В смете учитываем реальные оптовые закупочные цены без скрытых наценок и переплат</p>' +
-      '</div>' +
-      '<div class="service-about">' +
         '<h3>Гарантируем качественную работу</h3>' +
         '<p>Работаем по договору, фиксируем условия и даем гарантию до 2 лет</p>' +
       '</div>' +
-      '<div class="service-about">' +
-        '<h3>Виды укладки брусчатки</h3>' +
-        '<p>1. Укладка плитки (брусчатки) на готовое основание</p>' +
-        '<p>2. Укладка плитки (брусчатки) на песчаную подушку</p>' +
-        '<p>3. Укладка плитки (брусчатки) на песчано - щебеночную подушку</p>' +
-        '<p>4. Укладка тротуарной брусчатки с бетонированием</p>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки брусчатки</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type1.png" alt="Укладка плитки на готовое основание" /><h4>Укладка плитки<br>(брусчатки) на готовое основание</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type2.png" alt="Укладка плитки на песчаную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчаную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type3.png" alt="Укладка плитки на песчано-щебеночную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчано-<br>щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type4.png" alt="Укладка тротуарной брусчатки с бетонированием" /><h4>Укладка тротуарной<br>брусчатки с бетонированием</h4></article>' +
       '</div>' +
       '<div class="service-about">' +
         '<h3>Популярные виды плитки / брусчатки</h3>' +
-        '<p>Брусчатка кирпичик</p>' +
-        '<p>Тротуарная плитка</p>' +
-        '<p>Брусчатка Старый Город</p>' +
-        '<p>Брусчатка Новый Город</p>' +
-        '<p>Гранитная брусчатка</p>' +
-        '<p>Камень песчаник</p>' +
-        '<p>Клинкерная брусчатка</p>' +
-        '<p>Газонная решетка</p>' +
+        '<div class="service-types">' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style1.png" alt="Брусчатка кирпичик" /><h4>Брусчатка кирпичик</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style2.png" alt="Тротуарная плитка" /><h4>Тротуарная плитка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style3.png" alt="Брусчатка Старый Город" /><h4>Брусчатка Старый Город</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style4.png" alt="Брусчатка Новый Город" /><h4>Брусчатка Новый Город</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style5.png" alt="Гранитная брусчатка" /><h4>Гранитная брусчатка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style6.png" alt="Камень песчаник" /><h4>Камень песчаник</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style7.png" alt="Клинкерная брусчатка" /><h4>Клинкерная брусчатка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style8.png" alt="Газонная решетка" /><h4>Газонная решетка</h4></article>' +
+        '</div>' +
       '</div>';
 
     var asphaltMillingsContent =
