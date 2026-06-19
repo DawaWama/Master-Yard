@@ -333,7 +333,7 @@
           '</div>' +
         '</div>' +
       '</div>' +
-      '<h3 class="service-detail-heading">Виды отсыпки щебня и порядок цен</h3>' +
+      '<h3 class="service-detail-heading">Виды отсыпки щебня</h3>' +
       '<ol class="service-stages">' +
         '<li><strong>Вторичный щебень</strong></li>' +
         '<li><strong>Известняковый щебень</strong></li>' +
@@ -342,15 +342,19 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type1.png" alt="Отсыпка щебнем одной фракции" />' +
           '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
         '</article>' +
         '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type2.png" alt="Отсыпка щебнем двумя фракциями" />' +
           '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
         '</article>' +
         '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type3.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
           '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
         '</article>' +
         '<article class="service-type">' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type4.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
           '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
         '</article>' +
       '</div>' +
@@ -366,6 +370,42 @@
         '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза, катки асфальтные, грунтовые экскаваторы и другое оборудование. <strong>38 единиц спецтехники</strong>.</p></article>' +
         '<article class="service-benefit"><h4>Экономия на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным — оптовым ценам!</p></article>' +
         '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
+      '</div>';
+
+    var asphaltMillingsContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="asphaltSubCategory/asphaltMillings/cower.png" alt="Укладка асфальтной крошки" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Укладка асфальтной крошки</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки асфальтовой крошки</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на готовом основании</h4></article>' +
+        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>2 слоя на готовом основании</h4></article>' +
+        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на щебеночную подушку</h4></article>' +
+        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на песчано - щебеночную подушку</h4></article>' +
+        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>в 2 слоя на песчано - щебеночную подушку</h4></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтную крошку именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Экономия денег на<br>поставке материалов</h4><p>В смете по закупным - оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
       '</div>';
 
     var asphaltSubcategories = {
@@ -405,14 +445,15 @@
         title: 'Укладка асфальтной крошки',
         folder: 'asphaltSubCategory/asphaltMillings/',
         thumbnail: 'asphaltSubCategory/asphaltMillings/asphaltMillings.png',
-        description: 'Укладка и уплотнение асфальтной крошки для подъездных путей, парковок и временных покрытий — экономичное и практичное решение.',
-        images: ['asphaltMillings.png']
+        description: '',
+        content: asphaltMillingsContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       graveling: {
         title: 'Отсыпка дороги или участка щебнем',
         folder: 'asphaltSubCategory/graveling/',
         thumbnail: 'asphaltSubCategory/graveling/graveling.png',
-        description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции с формированием прочного основания под дальнейшее покрытие.',
+        description: '',
         content: gravelingContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       }
@@ -520,7 +561,7 @@
     if(category === 'Asphalt' && sub && asphaltSubcategories[sub]){
       var currentSub = asphaltSubcategories[sub];
       if(title){
-        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving'){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'graveling' || sub === 'asphaltMillings'){
           title.hidden = true;
         } else {
           title.hidden = false;
@@ -528,7 +569,7 @@
         }
       }
       if(description){
-        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving'){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'graveling' || sub === 'asphaltMillings'){
           description.hidden = true;
         } else {
           description.hidden = false;
