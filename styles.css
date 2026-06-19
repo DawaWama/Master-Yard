@@ -834,14 +834,47 @@ h3 {
 
   .service-cover-wrap .service-cover {
     aspect-ratio: auto;
-    min-height: 420px;
+    min-height: 320px;
     max-height: none;
     height: auto;
   }
 
   .service-cover-content {
-    padding: 1.15rem;
+    padding: 1rem;
     gap: 0.5rem;
+  }
+
+  .service-cover-title {
+    font-size: clamp(1.4rem, 7vw, 1.65rem);
+  }
+
+  .service-cover-desc,
+  .service-cover-lead,
+  .service-cover-consultation {
+    font-size: 0.95rem;
+  }
+
+  .service-cover-phone {
+    padding: 0.85rem 1rem;
+  }
+
+  .service-types {
+    gap: 0.75rem;
+    padding: 0 0.75rem 0.35rem;
+  }
+
+  .service-type {
+    flex: 0 0 min(90vw, 260px);
+  }
+
+  .service-flow {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding: 0 0.75rem 0.35rem;
+  }
+
+  .service-flow article {
+    flex: 0 0 min(90vw, 240px);
   }
 
   .service-cover-title {
