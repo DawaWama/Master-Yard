@@ -372,6 +372,106 @@
         '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы. Более 150 успешных проектов.</p></article>' +
       '</div>';
 
+    var curbContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Curb/cower.jpg" alt="Установка бордюров" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Установка бордюров и разделение зон</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать установку бордюров именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Экономия денег на материалах</h4><p>Экономия денег на поставке материалов. В смете по закупным - оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Установка садовых бордюров</h3>' +
+        '<p>Вид ремонта</p>' +
+        '<p>Установка садовых бордюров (поребриков, бордюрных камней)</p>' +
+        '<p>«Под ключ» - установка + материалы - бордюр садовый вибропрессованный 1000х200х80, 35 кг/шт</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Установка дорожных бордюров</h3>' +
+        '<p>Вид ремонта</p>' +
+        '<p>Установка дорожных (бетонных) бордюров БР 100 30 15</p>' +
+        '<p>«Под ключ» - установка + материалы - бортовой бордюрный камень БР 100.30 15, 97 кг/шт.</p>' +
+        '<p>«Под ключ» - установка + материалы - магистральный бордюр БР 1000х300х180, 126 кг/шт.</p>' +
+        '<p>«Под ключ» - установка + материалы - мостовой бордюр БР 1000х450х180, 180 кг/шт.</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Установка бетонных (тротуарных) водостоков</h3>' +
+        '<p>Вид ремонта</p>' +
+        '<p>Установка бетонных (тротуарных) водостоков</p>' +
+        '<p>«Под ключ» - установка + материалы 500х200х70</p>' +
+      '</div>';
+
+    var paversContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Pavers/cower.jpg" alt="Укладка тротуарной плитки и брусчатки" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Укладка тротуарной плитки,<br>брусчатки</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать укладку тротуарной плитки именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Заявка<br>и расчет</h4><p>Предварительный расчет<br>стоимости за 5 минут</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Выезд<br>и замер</h4><p>Выезд специалиста и<br>точный замер участка</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Решение<br>и смета</h4><p>Подбор решения и расчет<br>точной сметы работ</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Договор<br>и работы</h4><p>Фиксируем условия и<br>приступаем к работам</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Сдача<br>и гарантия</h4><p>Сдаем объект и даем<br>гарантию на работы</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только опытные мастера!</h3>' +
+        '<p>Опытные бригады, четкая организация работ и стабильно высокий результат</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Отзывы о нас</h3>' +
+        '<p>Экономия на поставке материалов</p>' +
+        '<p>В смете учитываем реальные оптовые закупочные цены без скрытых наценок и переплат</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантируем качественную работу</h3>' +
+        '<p>Работаем по договору, фиксируем условия и даем гарантию до 2 лет</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Виды укладки брусчатки</h3>' +
+        '<p>1. Укладка плитки (брусчатки) на готовое основание</p>' +
+        '<p>2. Укладка плитки (брусчатки) на песчаную подушку</p>' +
+        '<p>3. Укладка плитки (брусчатки) на песчано - щебеночную подушку</p>' +
+        '<p>4. Укладка тротуарной брусчатки с бетонированием</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Популярные виды плитки / брусчатки</h3>' +
+        '<p>Брусчатка кирпичик</p>' +
+        '<p>Тротуарная плитка</p>' +
+        '<p>Брусчатка Старый Город</p>' +
+        '<p>Брусчатка Новый Город</p>' +
+        '<p>Гранитная брусчатка</p>' +
+        '<p>Камень песчаник</p>' +
+        '<p>Клинкерная брусчатка</p>' +
+        '<p>Газонная решетка</p>' +
+      '</div>';
+
     var asphaltMillingsContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -465,6 +565,7 @@
         folder: 'Pavers/',
         description: 'Работы по укладке брусчатки.',
         thumbnail: 'thumbnails/Брусчатка.png',
+        content: paversContent,
         images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg']
       },
       'Asphalt': {
@@ -500,7 +601,8 @@
         folder: 'Curb/',
         description: 'Установка бордюров и разделение зон.',
         thumbnail: 'thumbnails/бордюр.png',
-        images: ['curb1.jpeg']
+        content: curbContent,
+        images: ['curb1.jpeg','2.jpg','3.jpg','4.jpg']
       },
       'Drainage': {
         title: 'Дренаж и септик',
@@ -590,8 +692,13 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(title) title.textContent = current.title + ' — Галерея';
-      if(description) description.textContent = current.description;
+      if(category === 'Curb' || category === 'Pavers'){
+        if(title) title.hidden = true;
+        if(description) description.hidden = true;
+      } else {
+        if(title) title.textContent = current.title + ' — Галерея';
+        if(description) description.textContent = current.description;
+      }
       if(help) help.innerHTML = '';
 
       if(category === 'Asphalt'){
@@ -612,6 +719,7 @@
       }
 
       clearAsphaltExtras();
+      if(galleryContent) galleryContent.innerHTML = current.content || '';
       galleryGrid.innerHTML = renderGalleryImages(current.folder, current.images, current.title);
     } else {
       clearAsphaltExtras();
