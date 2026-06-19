@@ -470,6 +470,44 @@
         '</div>' +
       '</div>';
 
+    var landscapeContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Landscape/cower.png" alt="Озеленение участка, территории" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Озеленение<br>участка, территории</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать данную услугу именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле - снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки, работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только опытные мастера!</h3>' +
+        '<p>более 127 выполненных работ и такое же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные работы</h3>' +
+        '<p>2 года гарантии на все выполненные работы</p>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды озеленения</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type1.png" alt="Укладка рулонного газона" /><h4>Укладка<br>рулонного газона<br>«Под Ключ»</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type2.png" alt="Устройство посевного газона на готовом основании" /><h4>Устройство<br>посевного газона на<br>готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type3.png" alt="Устройство посевного газона «Под Ключ»" /><h4>Устройство<br>посевного газона<br>«Под Ключ»</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type4.png" alt="Устройство посевного газона с антикротовой сеткой" /><h4>Устройство посевного газона<br>с антикротовой сеткой</h4></article>' +
+      '</div>';
+
     var asphaltMillingsContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -564,7 +602,7 @@
         description: 'Работы по укладке брусчатки.',
         thumbnail: 'thumbnails/Брусчатка.png',
         content: paversContent,
-        images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg']
+        images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg','pavers9.jpeg']
       },
       'Asphalt': {
         title: 'Асфальт',
@@ -574,11 +612,12 @@
         images: ['Asphalt1.jpg']
       },
       'Landscape': {
-        title: 'Ландшафт',
+        title: 'Озеленение',
         folder: 'Landscape/',
-        description: 'Ландшафтный дизайн и оформление участка.',
+        description: 'Озеленение участка и благоустройство территории.',
         thumbnail: 'thumbnails/Ландшафт.png',
-        images: ['Landscape1.jpg']
+        content: landscapeContent,
+        images: ['Landscape1.jpg','Landscape2.jpg','Landscape3.jpg','Landscape4.jpg']
       },
       'Lawn': {
         title: 'Газон и полив',
@@ -639,7 +678,7 @@
       if(subcategoriesEl) subcategoriesEl.innerHTML = '';
       if(galleryBack) galleryBack.innerHTML = '';
       if(galleryContent) galleryContent.innerHTML = '';
-      if(sectionHeading) sectionHeading.hidden = true;
+      if(sectionHeading){ sectionHeading.textContent = 'Примеры выполненных нами работ'; sectionHeading.hidden = false; }
       if(title) title.hidden = false;
       if(description) description.hidden = false;
     }
@@ -678,6 +717,7 @@
       }
       if(galleryContent) galleryContent.innerHTML = currentSub.content || '';
       if(help) help.innerHTML = '';
+      if(sectionHeading){ sectionHeading.textContent = 'Примеры выполненных нами работ'; sectionHeading.hidden = false; }
       if(galleryBack) galleryBack.innerHTML = '<a href="gallery.html?category=Asphalt">← Назад к асфальту</a>';
       if(subcategoriesEl) subcategoriesEl.innerHTML = '';
       if(sectionHeading){
