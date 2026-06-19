@@ -342,19 +342,19 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type1.png" alt="Отсыпка щебнем одной фракции" />' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type1_2.png" alt="Отсыпка щебнем одной фракции" />' +
           '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type2.png" alt="Отсыпка щебнем двумя фракциями" />' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type2_2.png" alt="Отсыпка щебнем двумя фракциями" />' +
           '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type3.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type3_2.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
           '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type4.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
+          '<img class="service-type-image" src="asphaltSubCategory/graveling/type4_2.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
           '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
         '</article>' +
       '</div>' +
@@ -388,11 +388,11 @@
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки асфальтовой крошки</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
-        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на готовом основании</h4></article>' +
-        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>2 слоя на готовом основании</h4></article>' +
-        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на щебеночную подушку</h4></article>' +
-        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>на песчано - щебеночную подушку</h4></article>' +
-        '<article class="service-type"><h4>Укладка асфальтовой крошки<br>в 2 слоя на песчано - щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type1.png" alt="Укладка асфальтовой крошки на готовом основании" /><h4>Укладка асфальтовой крошки<br>на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type2.png" alt="Укладка асфальтовой крошки 2 слоя на готовом основании" /><h4>Укладка асфальтовой крошки<br>2 слоя на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type3.png" alt="Укладка асфальтовой крошки на щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type4.png" alt="Укладка асфальтовой крошки на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на песчано - щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type5.png" alt="Укладка асфальтовой крошки в 2 слоя на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>в 2 слоя на песчано - щебеночную подушку</h4></article>' +
       '</div>' +
       '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтную крошку именно у нас?</h3>' +
       '<div class="service-flow">' +
