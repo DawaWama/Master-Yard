@@ -799,6 +799,59 @@
         '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
       '</ol>';
 
+    var pitContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Pit/cower.jpg" alt="Разработка котлована" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Рытьё котлованов</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать рытье котлованов именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Рытьё котлована<br>под любые цели</h4><p>- при фундаментных работах<br>- для установки септиков<br>- при организации погреба<br>- для обустройства искусственного водоёма</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Вид ремонта</h3>' +
+        '<ul class="service-list">' +
+          '<li>Разработка котлована механизированным способом в отвал</li>' +
+          '<li>Разработка котлована механизированным способом с погрузкой</li>' +
+          '<li>Перевозка грунта на расстояние до 1км (по месту)</li>' +
+          '<li>Вывоз грунта на расстояние до 50 км</li>' +
+          '<li>Обратная засыпка котлована грунтом из отвала с послойным уплотнением</li>' +
+          '<li>Обратная засыпка котлована песком с послойным уплотнением</li>' +
+          '<li>Доработка грунта вручную</li>' +
+        '</ul>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Этапы проведения работ по рытью</h3>' +
+      '<ol class="service-stages">' +
+        '<li><strong>Этап 1: Выезд на объект</strong><span>для оценки фронта работ, разработки сметы проекта. Бесплатно!</span></li>' +
+        '<li><strong>Этап 2: Геодезическая разбивка</strong><span>определяется точное местоположение выемки, ее размеры и углы.</span></li>' +
+        '<li><strong>Этап 3: Разведочные траншеи</strong><span>Производится копание разведочных траншей</span></li>' +
+        '<li><strong>Этап 4: Обноска</strong><span>Цель - зафиксировать контуры будущей постройки</span></li>' +
+        '<li><strong>Этап 5: Откопка</strong><span>вручную или с помощью экскаваторов</span></li>' +
+        '<li><strong>Этап 6: Выемка земли</strong><span></span></li>' +
+        '<li><strong>Этап 7: Вывоз грунта</strong><span>Часть грунта вывозится за пределы населенного пункта, часть – остается на площадке для обратной засыпки</span></li>' +
+        '<li><strong>Этап 8: Засыпка грунта</strong><span>Выполняется по завершении монтажа фундамента с двух сторон возводимой постройки</span></li>' +
+      '</ol>' +
+      '<div class="service-about">' +
+        '<h3>Только<br>опытные мастера!</h3>' +
+        '<p>более 200 выполненных работ и такое<br>же количество довольных клиентов</p>' +
+      '</div>';
+
     var stepsContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -939,6 +992,14 @@
         description: 'Облицовка крыльца и входных групп.',
         thumbnail: 'thumbnails/steps.png',
         content: stepsContent,
+        images: []
+      },
+      'Pit': {
+        title: 'Разработка котлована',
+        folder: 'Pit/',
+        description: 'Разработка котлована и земляные работы.',
+        thumbnail: 'thumbnails/pit.png',
+        content: pitContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       'Gravelling': {
@@ -1010,7 +1071,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
