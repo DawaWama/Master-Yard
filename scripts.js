@@ -799,6 +799,94 @@
         '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
       '</ol>';
 
+    var demolitionContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Demolition/cower.jpg" alt="Снос, демонтаж дома" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Снос, демонтаж дома</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Что мы можем снести</h3>' +
+        '<div class="service-types">' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service1.png" alt="Снос деревянных домов" /><h4>Деревянные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service2.png" alt="Снос дачных домов" /><h4>Дачные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service3.png" alt="Снос домов после пожара" /><h4>После пожара</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service4.png" alt="Снос кирпичных домов" /><h4>Кирпичные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service5.png" alt="Снос каркасных домов" /><h4>Каркасные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service6.png" alt="Снос бань" /><h4>Бани</h4></article>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему лучше заказать снос дома именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Своя база<br>спецтехники</h3>' +
+        '<p>- экскаваторы - разрушители 24м, 32м, 46м<br>- крашер на базе гусеничного экскаватора<br>- экскаватор с гидромолотом<br>- самосвалы</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Вывоз строительного<br>мусора после сноса<br>зданий</h3>' +
+        '<p>При желании клиента, сохраним материалы<br>для повторного использования</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Разработка и согласование<br>полного пакета документации<br>(ППР) для выполнения работ<br>по сносу - от разработки проекта<br>до снятия здания с баланса</h3>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Вид дома/строение</h3>' +
+      '<div class="service-types">' +
+        '<article class="service-type"><h4>Снос каркасно-щитового дома</h4></article>' +
+        '<article class="service-type"><h4>Снос частного дома из бревна или бруса</h4></article>' +
+        '<article class="service-type"><h4>Снос кирпичного дома</h4></article>' +
+        '<article class="service-type"><h4>Снос части жилого дома</h4></article>' +
+        '<article class="service-type"><h4>Снос строений</h4></article>' +
+        '<article class="service-type"><h4>Снос сараев и пристроек</h4></article>' +
+        '<article class="service-type"><h4>Снос металлоконструкций</h4></article>' +
+      '</div>';
+
+    var garbageContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Garbage/cower.jpg" alt="Вывоз строительного мусора" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Вывоз строительного<br>мусора Москва и МО</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать данную услугу именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только<br>опытные мастера!</h3>' +
+        '<p>более 127 выполненных работ и такое<br>же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Экономия денег на<br>поставке материалов.</h3>' +
+        '<p>В смете по закупным<br>- оптовым ценам!</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные<br>работы</h3>' +
+        '<p><strong>2 года гарантии</strong><br>на все выполненные работы</p>' +
+      '</div>';
+
     var apronContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -1171,6 +1259,22 @@
         content: apronContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
+      'Demolition': {
+        title: 'Снос, демонтаж дома',
+        folder: 'Demolition/',
+        description: 'Снос и демонтаж домов, зданий и сооружений.',
+        thumbnail: 'thumbnails/Demolition.png',
+        content: demolitionContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
+      'Garbage': {
+        title: 'Вывоз строй мусора',
+        folder: 'Garbage/',
+        description: 'Вывоз строительного мусора в Москве и МО.',
+        thumbnail: 'thumbnails/Garbage.png',
+        content: garbageContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Grading': {
         title: 'Планировка участка',
         folder: 'Grading/',
@@ -1248,7 +1352,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
@@ -1294,7 +1398,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron'){
+      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
