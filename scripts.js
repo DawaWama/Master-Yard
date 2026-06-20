@@ -802,10 +802,10 @@
     var gradingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Grading/cower.jpg" alt="Планировка участ />' +
+          '<img class="service-cover" src="Grading/cower.jpg" alt="Планировка участка в отметку" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
-            '<h3 class="service-cover-title">Планировка участка</h3>' +
+            '<h3 class="service-cover-title">Планировка участка<br>в отметку</h3>' +
             '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
             '<p class="service-cover-consultation">Бесплатная консультация</p>' +
             '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
