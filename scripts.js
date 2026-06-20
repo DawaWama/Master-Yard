@@ -812,7 +812,7 @@
           '</div>' +
         '</div>' +
       '</div>' +
-      '<div class="service-about">' +
+      '<div class="service-detail-heading">' +
         '<h3>Что мы можем снести</h3>' +
         '<div class="service-types">' +
           '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service1.png" alt="Снос деревянных домов" /><h4>Деревянные</h4></article>' +
