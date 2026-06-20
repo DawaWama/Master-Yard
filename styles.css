@@ -576,6 +576,20 @@ h3 {
   display: block;
 }
 
+.service-type--bottom-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-type--bottom-text .service-type-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.service-type--bottom-text h4 {
+  margin-top: auto;
+}
+
 .card figcaption {
   flex: 1;
   display: flex;

@@ -799,6 +799,127 @@
         '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
       '</ol>';
 
+    var apronContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Apron/cower.jpg" alt="Отмостка вокруг дома" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Отмостка вокруг дома</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать отмостку вокруг дома именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только<br>опытные мастера!</h3>' +
+        '<p>более 200 выполненных работ и такое<br>же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Экономия денег на<br>поставке материалов.</h3>' +
+        '<p>В смете по закупным -<br>оптовым ценам!</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные<br>работы</h3>' +
+        '<p><strong>2 года гарантии</strong><br>на все выполненные работы</p>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Виды отмосток и порядок</h3>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<h4>Отмостка из брусчатки<br>Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>подготовка основания цементно-песчаной смесью</li>' +
+            '<li>укладка брусчатки</li>' +
+          '</ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отмостка вокруг дома из<br>тротуарной плитки Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>подготовка основания цементно-песчаной смесью</li>' +
+            '<li>укладка брусчатки</li>' +
+            '<li>затирка швов</li>' +
+          '</ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отмостка вокруг дома<br>из асфальта Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>нанесение битумной эмульсии</li>' +
+            '<li>асфальтобетонная смесь</li>' +
+          '</ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отмостка вокруг дома<br>из бетона Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>укладка дорожной сетки 3х50х50</li>' +
+            '<li>монтаж деформационных швов из досок</li>' +
+            '<li>бетонирование в ручную 10 см (М350)</li>' +
+          '</ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отмостка вокруг дома<br>из бетона (утепленная) Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>укладка утеплителя 10 см</li>' +
+            '<li>укладка дорожной сетки 3х50х50</li>' +
+            '<li>монтаж деформационных швов из досок</li>' +
+            '<li>бетонирование в ручную 10 см (М350)</li>' +
+          '</ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Отмостка вокруг дома из<br>резинового покрытия Под Ключ</h4>' +
+          '<ul>' +
+            '<li>выемка грунта 25 - 35 см</li>' +
+            '<li>подготовка основания</li>' +
+            '<li>укладка геотекстиля</li>' +
+            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
+            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
+            '<li>нанесение клея</li>' +
+            '<li>резиновое покрытие</li>' +
+          '</ul>' +
+        '</article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Дополнительные работы</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<p>При строительстве устройства отмоски часто возникают следующие дополнительные работы</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border.png" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain.png" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane.png" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
+      '</div>';
+
     var gradingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -1042,6 +1163,14 @@
         content: pitContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
+      'Apron': {
+        title: 'Отмостка вокруг дома',
+        folder: 'Apron/',
+        description: 'Устройство и ремонт отмостки вокруг дома и зданий.',
+        thumbnail: 'thumbnails/Apron.png',
+        content: apronContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Grading': {
         title: 'Планировка участка',
         folder: 'Grading/',
@@ -1119,7 +1248,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Grading'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
@@ -1165,7 +1294,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage'){
+      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
