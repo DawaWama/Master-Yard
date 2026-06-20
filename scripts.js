@@ -799,6 +799,42 @@
         '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
       '</ol>';
 
+    var stepsContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Steps/cower.jpg" alt="Облицовка крыльца" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Облицовка крыльца, ступеней<br>"Под Ключ"</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать облицовку крыльца именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Экономия денег на<br>поставке материалов</h4><p>В смете по закупным - оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только опытные мастера!</h3>' +
+        '<p>более 127 выполненных работ и такое же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные работы</h3>' +
+        '<p><strong>2 года гарантии</strong> на все выполненные работы</p>' +
+      '</div>' +
+      '<div class="gallery-grid"></div>';
+
     var asphaltSubcategories = {
       roadAsphaltPaving: {
         title: 'Асфальтирование дорог',
@@ -897,6 +933,14 @@
         content: lightingContent,
         images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.png']
       },
+      'Steps': {
+        title: 'Облицовка крыльца',
+        folder: 'Steps/',
+        description: 'Облицовка крыльца и входных групп.',
+        thumbnail: 'thumbnails/steps.png',
+        content: stepsContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Gravelling': {
         title: 'Отсыпка дороги или участка щебнем',
         folder: 'asphaltSubCategory/graveling/',
@@ -966,7 +1010,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
