@@ -799,6 +799,82 @@
         '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
       '</ol>';
 
+    var gradingContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Grading/cower.jpg" alt="Планировка участ />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Планировка участка</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать планировку участка именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Выполняем выравнивание участка с помощью трактора, мотоблока или погрузчиком JCB</h4></article>' +
+        '<article class="service-benefit"><h4>Выравним Ваш участок, площадью 10-15 соток, за 1 день</h4></article>' +
+        '<article class="service-benefit"><h4>Кардинально изменим внешний вид Вашей территории</h4></article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Способы планирования участка</h3>' +
+      '<div class="service-about">' +
+        '<h3>Выравнивание участка с помощью трактора или мотоблока</h3>' +
+        '<p>Данный способ дробит почву с использованием различной техники, а затем его разравнивает. Для выравнивания участков мы используем трактор Avant или мотоблок Husqvarna. Рыхление почвы не превышает глубину двадцати сантиметров ( в противном случаи , более глубинная раскопка может поднять низлежащие слои супеси и суглинка).</p>' +
+        '<p>После рыхления вручную удаляется ненужная растительность и разравнивается территория.</p>' +
+        '<p>Таким способом выравнивается участок и удаляются все ямы и кочки. Также подготавливается основание под газон. В цену входит только уплотнение грунта. Чтобы разровнять свободные от построек участки мы используем погрузчик JCB.</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Отсыпка участка грунтом</h3>' +
+        '<p>Единственный и оптимальный способ выравнивания уклона и повышения уровня земли -отсыпка участка грунтом. Тип грунта зависит от намерений и перепадов. Материал для выравниваний доставляем на своём транспорте.</p>' +
+        '<p>Распределение происходит ручным методом или с помощью прогрузчика. При помощи высотной съемки нивелиром, вычисляется объем и стоимость грунта для выравнивания территории.</p>' +
+        '<p>Стоимость услуги формируется из количества материала и метода разделения.</p>' +
+      '</div>';
+
+    var stepsContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Steps/cower.jpg" alt="Облицовка крыльца" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Облицовка крыльца, ступеней<br>"Под Ключ"</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать облицовку крыльца именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-benefits">' +
+        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
+        '<article class="service-benefit"><h4>Экономия денег на<br>поставке материалов</h4><p>В смете по закупным - оптовым ценам!</p></article>' +
+        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только опытные мастера!</h3>' +
+        '<p>более 127 выполненных работ и такое же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные работы</h3>' +
+        '<p><strong>2 года гарантии</strong> на все выполненные работы</p>' +
+      '</div>' +
+      '<div class="gallery-grid"></div>';
+
     var pitContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -851,42 +927,6 @@
         '<h3>Только<br>опытные мастера!</h3>' +
         '<p>более 200 выполненных работ и такое<br>же количество довольных клиентов</p>' +
       '</div>';
-
-    var stepsContent =
-      '<div class="service-hero service-hero--cover">' +
-        '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Steps/cower.jpg" alt="Облицовка крыльца" />' +
-          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
-          '<div class="service-cover-content">' +
-            '<h3 class="service-cover-title">Облицовка крыльца, ступеней<br>"Под Ключ"</h3>' +
-            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
-            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
-            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
-          '</div>' +
-        '</div>' +
-      '</div>' +
-      '<h3 class="service-detail-heading">Почему выгоднее заказать облицовку крыльца именно у нас?</h3>' +
-      '<div class="service-flow">' +
-        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
-        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
-        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
-        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
-        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
-      '</div>' +
-      '<div class="service-benefits">' +
-        '<article class="service-benefit"><h4>Своя база спецтехники</h4><p>Асфальтоукладчики, дорожная фреза,<br>Катки асфальтные, грунтовые экскаваторы ...</p><strong>38 единиц спецтехники</strong></article>' +
-        '<article class="service-benefit"><h4>Экономия денег на<br>поставке материалов</h4><p>В смете по закупным - оптовым ценам!</p></article>' +
-        '<article class="service-benefit"><h4>Гарантируем качественную работу</h4><p>Соблюдаем все сроки и нормативные нормы.<br>Более 150 успешных проектов</p></article>' +
-      '</div>' +
-      '<div class="service-about">' +
-        '<h3>Только опытные мастера!</h3>' +
-        '<p>более 127 выполненных работ и такое же количество довольных клиентов</p>' +
-      '</div>' +
-      '<div class="service-about">' +
-        '<h3>Гарантия на выполненные работы</h3>' +
-        '<p><strong>2 года гарантии</strong> на все выполненные работы</p>' +
-      '</div>' +
-      '<div class="gallery-grid"></div>';
 
     var asphaltSubcategories = {
       roadAsphaltPaving: {
@@ -1002,6 +1042,14 @@
         content: pitContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
+      'Grading': {
+        title: 'Планировка участка',
+        folder: 'Grading/',
+        description: 'Планировка и выравнивание участка.',
+        thumbnail: 'thumbnails/grading.png',
+        content: gradingContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Gravelling': {
         title: 'Отсыпка дороги или участка щебнем',
         folder: 'asphaltSubCategory/graveling/',
@@ -1071,7 +1119,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Grading'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
