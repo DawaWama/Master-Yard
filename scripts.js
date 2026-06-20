@@ -887,6 +887,48 @@
         '<p><strong>2 года гарантии</strong><br>на все выполненные работы</p>' +
       '</div>';
 
+    var excavationContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="Excavation/cower.jpg" alt="Вывоз грунта" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Вывоз грунта с<br>утилизацией</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать вывоз грунта именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Собственный автопарк<br>спецтехники</h3>' +
+        '<p>Более 350 тыс.м3 тонн грунта было<br>утилизировано нами за 2020 год!</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Подача техники на<br>объект от</h3>' +
+        '<p>30 минут</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Вывоз грунта на официальные<br>полигоны Москвы и МО с<br>закрывающими документами<br>и талонами</h3>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Варианты вывоза грунта (полный или поэтапный)</h3>' +
+      '<div class="service-about">' +
+        '<h3>Вывоз и утилизация грунта<br>с погрузкой</h3>' +
+        '<p>Наша компания осуществляет полный комплекс работ по вывозу грунта, мы готовы предоставить услуги вывоза с погрузкой. Для этого на объект подается мощный гусеничный экскаватор или экскаватор-погрузчик нашей компании. Это значительно сэкономит время.</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Вывоз и утилизация грунта с<br>Вашей погрузкой</h3>' +
+        '<p>Если техника, которая, будет осуществлять погрузку Вам не требуется, то мы просто отправим самосвалы и оперативно освоим весь объем. Наша техника готова работать круглосуточно, что позволяет вывозить более тысячи метров кубических материала за один день.</p>' +
+      '</div>';
+
     var apronContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -1003,9 +1045,9 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<p>При строительстве устройства отмоски часто возникают следующие дополнительные работы</p>' +
       '<div class="service-types">' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border.png" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain.png" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane.png" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border2.png" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain2.png" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane2.png" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
       '</div>';
 
     var gradingContent =
@@ -1275,6 +1317,14 @@
         content: garbageContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
+      'Excavation': {
+        title: 'Вывоз грунта',
+        folder: 'Excavation/',
+        description: 'Вывоз грунта и земляные работы.',
+        thumbnail: 'thumbnails/Excavation.png',
+        content: excavationContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Grading': {
         title: 'Планировка участка',
         folder: 'Grading/',
@@ -1352,7 +1402,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage', 'Excavation'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
@@ -1398,7 +1448,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage'){
+      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'Excavation'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
