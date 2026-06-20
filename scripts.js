@@ -887,6 +887,40 @@
         '<p><strong>2 года гарантии</strong><br>на все выполненные работы</p>' +
       '</div>';
 
+    var snowRemovalContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="SnowRemoval/cower.jpg" alt="Вывоз снега" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Вывоз снега Москва и МО</h3>' +
+            '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать данную услугу именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Только<br>опытные мастера!</h3>' +
+        '<p>более 127 выполненных работ и такое<br>же количество довольных клиентов</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Экономия денег на<br>поставке материалов.</h3>' +
+        '<p>В смете по закупным<br>- оптовым ценам!</p>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Гарантия на выполненные<br>работы</h3>' +
+        '<p><strong>2 года гарантии</strong><br>на все выполненные работы</p>' +
+      '</div>';
+
     var excavationContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
@@ -1317,6 +1351,14 @@
         content: garbageContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
+      'SnowRemoval': {
+        title: 'Вывоз снега',
+        folder: 'SnowRemoval/',
+        description: 'Вывоз снега и уборка территории.',
+        thumbnail: 'thumbnails/SnowRemoval.png',
+        content: snowRemovalContent,
+        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+      },
       'Excavation': {
         title: 'Вывоз грунта',
         folder: 'Excavation/',
@@ -1402,7 +1444,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage', 'Excavation'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage', 'SnowRemoval', 'Excavation'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
@@ -1448,7 +1490,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'Excavation'){
+      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'SnowRemoval' || category === 'Excavation'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
