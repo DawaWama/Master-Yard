@@ -180,9 +180,8 @@
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Ямочный ремонт</h3>' +
-            '<p class="service-cover-desc">Локальный ремонт ям, выбоин и разрушенных участков асфальтового покрытия для восстановления ровной и безопасной поверхности.</p>' +
-            '<p class="service-cover-lead">Ямочный ремонт асфальтового<br>покрытия</p>' +
-            '<p class="service-cover-secondary">Надёжный результат на долгие годы службы</p>' +
+            '<p class="service-cover-desc">Локальный ремонт ям, выбоин и разрушенных участков.</p>' +
+            '<p class="service-cover-lead">Надёжный результат на долгие годы службы</p>' +
             '<p class="service-cover-consultation">Бесплатная консультация</p>' +
             '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
           '</div>' +
@@ -1240,10 +1239,10 @@
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       potholeRepair: {
-        title: 'Ямочный ремонт',
+        title: '',
         folder: 'asphaltSubCategory/potholeRepair/',
         thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.png',
-        description: 'Локальный ремонт ям, выбоин и разрушенных участков асфальтового покрытия для восстановления ровной и безопасной поверхности.',
+        description: '',
         content: potholeRepairContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
