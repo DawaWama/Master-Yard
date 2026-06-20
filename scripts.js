@@ -610,6 +610,99 @@
         '<p>2 года гарантии на все выполненные работы</p>' +
       '</div>';
 
+    var rolledLawnContent =
+      '<div class="service-hero service-hero--cover">' +
+        '<div class="service-cover-wrap">' +
+          '<img class="service-cover" src="RolledLawn/cower.jpg" alt="Укладка рулонного газона" />' +
+          '<div class="service-cover-overlay" aria-hidden="true"></div>' +
+          '<div class="service-cover-content">' +
+            '<h3 class="service-cover-title">Укладка рулонного газона</h3>' +
+            '<p class="service-cover-desc">Надежный результат на долгие годы службы</p>' +
+            '<p class="service-cover-consultation">Бесплатная консультация</p>' +
+            '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Почему выгоднее заказать укладку рулонного газона именно у нас?</h3>' +
+      '<div class="service-flow">' +
+        '<article><span class="service-flow-num">01</span><h4>Гарантия<br>лучшей цены!</h4><p>Найдете дешевле -<br>снизим цену</p></article>' +
+        '<article><span class="service-flow-num">02</span><h4>Все виды<br>оплат</h4><p>Оплата наличным и<br>безналичным расчетом</p></article>' +
+        '<article><span class="service-flow-num">03</span><h4>Стоимость<br>работ по смете</h4><p>Никаких лишних оплат во<br>время и после работы</p></article>' +
+        '<article><span class="service-flow-num">04</span><h4>Быстрое<br>решение задач</h4><p>Не срываем сроки,<br>работаем 24/7</p></article>' +
+        '<article><span class="service-flow-num">05</span><h4>Высокое<br>качество работ</h4><p>Строго соблюдаем<br>требования ГОСТ, СНиП</p></article>' +
+      '</div>' +
+      '<div class="service-about">' +
+        '<h3>Все предварительные и финишные работы</h3>' +
+        '<ul class="service-list"><li>уборка сорняков, выравнивание площадки под газон, планировка</li><li>укатка готовой поверхности газона катком и рекомендации по уходу</li></ul>' +
+        '<h3>Экономия денег на поставке материалов</h3>' +
+        '<p>В смете по закупным - оптовым ценам!</p>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Гарантия на выполненные работы</h3>' +
+      '<div class="service-about"><p><strong>2 года гарантии</strong> на все выполненные работы</p></div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки рулонного газона</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<h4>На готовое основание</h4>' +
+          '<ul><li>доставка газона</li><li>подготовка поверхности</li><li>разгрузка и укладка</li><li>прикатывание</li><li>полив и уборка</li><li>рекомендация по уходу</li></ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>C заменой грунта<br>ПОД КЛЮЧ</h4>' +
+          '<ul><li>доставка газона</li><li>плодородный грунт (10-12 см)</li><li>планировка и выравнивание</li><li>уплотнение</li><li>разгрузка и укладка</li><li>прикатывание</li><li>полив и уборка</li><li>рекомендация по уходу</li></ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Со срезкой верхнего слоя</h4>' +
+          '<ul><li>доставка газона</li><li>срезка верхнего слоя</li><li>вывоз срезанного материала</li><li>плодородный грунт (10-12 см)</li><li>планировка и выравнивание</li><li>плотнение</li><li>разгрузка и укладка</li><li>прикатывание</li><li>полив и уборка</li><li>рекомендация по уходе</li></ul>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<h4>Элитная подготовка<br>ПОД КЛЮЧ</h4>' +
+          '<ul><li>доставка газона</li><li>срезка верхнего слоя</li><li>вывоз срезанного материала</li><li>культивация и чистка</li><li>уплотнение</li><li>песчаная подушка (5-10 см)</li><li>плодородный грунт (10-12 см)</li><li>планировка и выравнивание</li><li>дополнительная трамбовка</li><li>разгрузка и укладка</li><li>прикатывание</li><li>полив и уборка</li><li>рекомендации по уходу</li></ul>' +
+        '</article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading service-detail-heading--scroll">Основные виды газона</h3>' +
+      '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
+      '<div class="service-types">' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="RolledLawn/Городской.png" alt="Газон Городской" />' +
+          '<h4>«Городской»</h4>' +
+          '<p><strong>Цвет:</strong> Светло-зеленый</p>' +
+          '<p><strong>Состав:</strong> Мятлик луговой 100%, Canada, 3-х летний</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="RolledLawn/Универсальный.png" alt="Газон Универсальный" />' +
+          '<h4>«Универсальный»</h4>' +
+          '<p><strong>Цвет:</strong> Равномерно однородный зеленый</p>' +
+          '<p><strong>Состав:</strong> Мятлик луговой 80%, овсяница красная 20% Canada, 3-х летний</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="RolledLawn/Эталон.png" alt="Газон Эталон" />' +
+          '<h4>«Эталон»</h4>' +
+          '<p><strong>Цвет:</strong> Однородный темно-зеленый</p>' +
+          '<p><strong>Состав:</strong> Мятлик луговой 100%, Canada, 3-х летний</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="RolledLawn/Спортивный.png" alt="Газон Спортивный" />' +
+          '<h4>«Спортивный»</h4>' +
+          '<p><strong>Цвет:</strong> Насыщенный изумрудный</p>' +
+          '<p><strong>Состав:</strong> Мятлик луговой 100%, USA, 3-х летний</p>' +
+        '</article>' +
+        '<article class="service-type">' +
+          '<img class="service-type-image" src="RolledLawn/Парковый.png" alt="Газон Парковый" />' +
+          '<h4>«Парковый»</h4>' +
+          '<p><strong>Цвет:</strong> Темно-зеленый с изумрудным оттенком</p>' +
+          '<p><strong>Состав:</strong> 80% газонные сорта овсяницы, 20% мятлик луговой</p>' +
+        '</article>' +
+      '</div>' +
+      '<h3 class="service-detail-heading">Этапы проведения работ по укладки газона</h3>' +
+      '<ol class="service-stages">' +
+        '<li><strong>Этап 1: Выезд</strong><span>на объект для замера участка, оценки состояния почвы. Бесплатно!</span></li>' +
+        '<li><strong>Этап 2: Снятие</strong><span>старого грунта</span></li>' +
+        '<li><strong>Этап 3: Планировка</strong><span>участка</span></li>' +
+        '<li><strong>Этап 4: Установка</strong><span>автополива</span></li>' +
+        '<li><strong>Этап 5: Доставка</strong><span>и укладка рулонного газона</span></li>' +
+        '<li><strong>Этап 6: Подписываем</strong><span>акт выполненных работ и даем гарантию на 2 года</span></li>' +
+      '</ol>';
+
     var asphaltSubcategories = {
       roadAsphaltPaving: {
         title: 'Асфальтирование дорог',
@@ -692,6 +785,14 @@
         thumbnail: 'thumbnails/Газон и полив.png',
         images: ['Lawn1.jpg']
       },
+      'RolledLawn': {
+        title: 'Рулонный газон',
+        folder: 'RolledLawn/',
+        description: 'Укладка рулонного газона — надежный результат на долгие годы службы.',
+        thumbnail: 'thumbnails/RolledLawn.png',
+        content: rolledLawnContent,
+        images: ['1.jpg','2.jpg','3.jpg','4.jpg']
+      },
       'Flagstone': {
         title: 'Дикий камень',
         folder: 'Flagstone/',
@@ -759,7 +860,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','Flagstone','Curb','Drainage'];
+      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
