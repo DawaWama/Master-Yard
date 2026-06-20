@@ -23,6 +23,7 @@
         nav.style.removeProperty('top');
         nav.style.removeProperty('padding');
         nav.style.removeProperty('box-shadow');
+        
         nav.style.removeProperty('border-radius');
       }
     }
@@ -1166,7 +1167,7 @@
           '<img class="service-cover" src="Pit/cower.jpg" alt="Разработка котлована" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
-            '<h3 class="service-cover-title">Рытьё котлованов</h3>' +
+            '<h3 class="service-cover-title">Рытье котлованов под<br>фундамент</h3>' +
             '<p class="service-cover-lead">Надежный результат на долгие годы службы</p>' +
             '<p class="service-cover-consultation">Бесплатная консультация</p>' +
             '<a class="service-cover-phone phone" href="tel:+79510006100">+7 951 000 6100</a>' +
@@ -1273,9 +1274,9 @@
         images: ['Asphalt1.jpg']
       },
       'Landscape': {
-        title: 'Озеленение',
+        title: '',
         folder: 'Landscape/',
-        description: 'Озеленение участка и благоустройство территории.',
+        description: '',
         thumbnail: 'thumbnails/Ландшафт.png',
         content: landscapeContent,
         images: ['Landscape1.jpg','Landscape2.jpg','Landscape3.jpg','Landscape4.jpg']
@@ -1288,17 +1289,17 @@
         images: ['Lawn1.jpg']
       },
       'RolledLawn': {
-        title: 'Рулонный газон',
+        title: '',
         folder: 'RolledLawn/',
-        description: 'Укладка рулонного газона — надежный результат на долгие годы службы.',
+        description: '',
         thumbnail: 'thumbnails/RolledLawn.png',
         content: rolledLawnContent,
         images: ['1.jpg','2.jpg','3.jpg','4.jpg']
       },
       'Flagstone': {
-        title: 'Дикий камень',
+        title: '',
         folder: 'Flagstone/',
-        description: 'Укладка дикого камня и декоративный камень.',
+        description: '',
         thumbnail: 'thumbnails/Дикий камень.png',
         content: flagstoneContent,
         images: ['1.jpeg','2.jpeg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg']
@@ -1312,17 +1313,17 @@
         images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.png']
       },
       'Steps': {
-        title: 'Облицовка крыльца',
+        title: '',
         folder: 'Steps/',
-        description: 'Облицовка крыльца и входных групп.',
+        description: '',
         thumbnail: 'thumbnails/steps.png',
         content: stepsContent,
         images: []
       },
       'Pit': {
-        title: 'Разработка котлована',
+        title: '',
         folder: 'Pit/',
-        description: 'Разработка котлована и земляные работы.',
+        description: '',
         thumbnail: 'thumbnails/pit.png',
         content: pitContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
@@ -1400,17 +1401,17 @@
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg']
       },
       'Concreting': {
-        title: 'Бетонирование',
+        title: '',
         folder: 'Concreting/',
-        description: 'Бетонирование, монолитные и отделочные работы с бетоном.',
+        description: '',
         thumbnail: 'thumbnails/Бетонирование.png',
         content: concretingContent,
         images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.png']
       },
       'Rubber': {
-        title: 'Резиновое покрытие',
+        title: '',
         folder: 'Rubber/',
-        description: 'Укладка резинового покрытия для площадок и дорожек.',
+        description: '',
         thumbnail: 'thumbnails/резин.png',
         content: rubberContent,
         images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg']
@@ -1490,7 +1491,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'SnowRemoval' || category === 'Excavation'){
+      if(category === 'Asphalt' || category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'SnowRemoval' || category === 'Excavation' || category === 'Flagstone' || category === 'Landscape' || category === 'RolledLawn' || category === 'Concreting' || category === 'Rubber' || category === 'Steps' || category === 'Pit'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
@@ -1500,13 +1501,11 @@
       if(help) help.innerHTML = '';
 
       if(category === 'Asphalt'){
-        if(title) title.hidden = false;
-        if(description) description.hidden = false;
         if(galleryBack) galleryBack.innerHTML = '';
         if(subcategoriesEl){
           subcategoriesEl.innerHTML = Object.keys(asphaltSubcategories).map(function(key){
             var subCat = asphaltSubcategories[key];
-            return '<a class="card" href="gallery.html?category=Asphalt&amp;sub=' + key + '"><figure><img src="' + subCat.thumbnail + '" alt="' + subCat.title + '"><figcaption>' + subCat.title + '</figcaption></figure></a>';
+            return '<a class="card" href="gallery.html?category=Asphalt&sub=' + key + '"><figure><img src="' + subCat.thumbnail + '" alt="' + subCat.title + '"><figcaption>' + subCat.title + '</figcaption></figure></a>';
           }).join('');
         }
         if(sectionHeading) sectionHeading.hidden = false;
