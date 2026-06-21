@@ -118,22 +118,22 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/1_4.png" alt="Асфальтирование на готовом основании" />' +
+          '<img class="service-type-image" src="asphaltSizes/1_4.avif" alt="Асфальтирование на готовом основании" />' +
           '<h4>Асфальтирование<br>на готовом основании</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/2_4.png" alt="Асфальтирование с выравнивающим слоем" />' +
+          '<img class="service-type-image" src="asphaltSizes/2_4.avif" alt="Асфальтирование с выравнивающим слоем" />' +
           '<h4>Асфальтирование с<br>выравнивающим слоем</h4>' +
           '<p>Если на основании есть ямы, требуется предварительное вываривание технологическим слоем. После чего производится укладка финишного слоя асфальта.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/3_4.png" alt="Асфальтирование по щебёночному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/3_4.avif" alt="Асфальтирование по щебёночному основанию" />' +
           '<h4>Асфальтирование по щебёночному основанию</h4>' +
           '<p>Бюджетный вариант асфальтирования, используется при необходимости создать с нуля крепкое основание в условиях ограниченного бюджета.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/4_4.png" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/4_4.avif" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
           '<h4>Асфальтирование по<br>щебёночно-песчаному основанию</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
@@ -246,22 +246,22 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/1_4.png" alt="Асфальтирование на готовом основании" />' +
+          '<img class="service-type-image" src="asphaltSizes/1_4.avif" alt="Асфальтирование на готовом основании" />' +
           '<h4>Асфальтирование<br>на готовом основании</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/2_4.png" alt="Асфальтирование с выравнивающим слоем" />' +
+          '<img class="service-type-image" src="asphaltSizes/2_4.avif" alt="Асфальтирование с выравнивающим слоем" />' +
           '<h4>Асфальтирование с<br>выравнивающим слоем</h4>' +
           '<p>Если на основании есть ямы, требуется предварительное вываривание технологическим слоем. После чего производится укладка финишного слоя асфальта.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/3_4.png" alt="Асфальтирование по щебёночному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/3_4.avif" alt="Асфальтирование по щебёночному основанию" />' +
           '<h4>Асфальтирование по щебёночному основанию</h4>' +
           '<p>Бюджетный вариант асфальтирования, используется при необходимости создать с нуля крепкое основание в условиях ограниченного бюджета.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/4_4.png" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/4_4.avif" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
           '<h4>Асфальтирование по<br>щебёночно-песчаному основанию</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
@@ -298,22 +298,22 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/1_4.png" alt="Асфальтирование на готовом основании" />' +
+          '<img class="service-type-image" src="asphaltSizes/1_4.avif" alt="Асфальтирование на готовом основании" />' +
           '<h4>Асфальтирование<br>на готовом основании</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/2_4.png" alt="Асфальтирование с выравнивающим слоем" />' +
+          '<img class="service-type-image" src="asphaltSizes/2_4.avif" alt="Асфальтирование с выравнивающим слоем" />' +
           '<h4>Асфальтирование с<br>выравнивающим слоем</h4>' +
           '<p>Если на основании есть ямы, требуется предварительное вываривание технологическим слоем. После чего производится укладка финишного слоя асфальта.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/3_4.png" alt="Асфальтирование по щебёночному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/3_4.avif" alt="Асфальтирование по щебёночному основанию" />' +
           '<h4>Асфальтирование по щебёночному основанию</h4>' +
           '<p>Бюджетный вариант асфальтирования, используется при необходимости создать с нуля крепкое основание в условиях ограниченного бюджета.</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSizes/4_4.png" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
+          '<img class="service-type-image" src="asphaltSizes/4_4.avif" alt="Асфальтирование по щебёночно-песчаному основанию" />' +
           '<h4>Асфальтирование по<br>щебёночно-песчаному основанию</h4>' +
           '<p>Данный вид асфальтирования применяется при условии, что основание ровное и как правило бетонное. Предварительно поверхность обрабатывается битумной эмульсией.</p>' +
         '</article>' +
@@ -802,7 +802,7 @@
     var demolitionContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Demolition/cower.jpg" alt="Снос, демонтаж дома" />' +
+          '<img class="service-cover" src="Demolition/cower.avif" alt="Снос, демонтаж дома" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Снос, демонтаж дома</h3>' +
@@ -815,12 +815,12 @@
       '<div class="service-detail-heading">' +
         '<h3>Что мы можем снести</h3>' +
         '<div class="service-types">' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service1.png" alt="Снос деревянных домов" /><h4>Деревянные</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service2.png" alt="Снос дачных домов" /><h4>Дачные</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service3.png" alt="Снос домов после пожара" /><h4>После пожара</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service4.png" alt="Снос кирпичных домов" /><h4>Кирпичные</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service5.png" alt="Снос каркасных домов" /><h4>Каркасные</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service6.png" alt="Снос бань" /><h4>Бани</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service1.avif" alt="Снос деревянных домов" /><h4>Деревянные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service2.avif" alt="Снос дачных домов" /><h4>Дачные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service3.avif" alt="Снос домов после пожара" /><h4>После пожара</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service4.avif" alt="Снос кирпичных домов" /><h4>Кирпичные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service5.avif" alt="Снос каркасных домов" /><h4>Каркасные</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Demolition/demolition-service6.avif" alt="Снос бань" /><h4>Бани</h4></article>' +
         '</div>' +
       '</div>' +
       '<h3 class="service-detail-heading">Почему лучше заказать снос дома именно у нас?</h3>' +
@@ -856,7 +856,7 @@
     var garbageContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Garbage/cower.jpg" alt="Вывоз строительного мусора" />' +
+          '<img class="service-cover" src="Garbage/cower.avif" alt="Вывоз строительного мусора" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Вывоз строительного<br>мусора Москва и МО</h3>' +
@@ -890,7 +890,7 @@
     var snowRemovalContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="SnowRemoval/cower.jpg" alt="Вывоз снега" />' +
+          '<img class="service-cover" src="SnowRemoval/cower.avif" alt="Вывоз снега" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Вывоз снега Москва и МО</h3>' +
@@ -924,7 +924,7 @@
     var excavationContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Excavation/cower.jpg" alt="Вывоз грунта" />' +
+          '<img class="service-cover" src="Excavation/cower.avif" alt="Вывоз грунта" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Вывоз грунта с<br>утилизацией</h3>' +
@@ -966,7 +966,7 @@
     var apronContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Apron/cower.jpg" alt="Отмостка вокруг дома" />' +
+          '<img class="service-cover" src="Apron/cower.avif" alt="Отмостка вокруг дома" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Отмостка вокруг дома</h3>' +
@@ -1079,15 +1079,15 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<p>При строительстве устройства отмоски часто возникают следующие дополнительные работы</p>' +
       '<div class="service-types">' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border2.png" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain2.png" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane2.png" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border2.avif" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain2.avif" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
+        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane2.avif" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
       '</div>';
 
     var gradingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Grading/cower.jpg" alt="Планировка участка в отметку" />' +
+          '<img class="service-cover" src="Grading/cower.avif" alt="Планировка участка в отметку" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Планировка участка<br>в отметку</h3>' +
@@ -1163,7 +1163,7 @@
     var pitContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Pit/cower.jpg" alt="Разработка котлована" />' +
+          '<img class="service-cover" src="Pit/cower.avif" alt="Разработка котлована" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Рытье котлованов под<br>фундамент</h3>' +
@@ -1325,7 +1325,7 @@
         description: '',
         thumbnail: 'thumbnails/pit.png',
         content: pitContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif','2.avif','3.avif','4.avif']
       },
       'Apron': {
         title: 'Отмостка вокруг дома',
@@ -1349,7 +1349,7 @@
         description: 'Вывоз строительного мусора в Москве и МО.',
         thumbnail: 'thumbnails/Garbage.png',
         content: garbageContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       'SnowRemoval': {
         title: 'Вывоз снега',
@@ -1357,7 +1357,7 @@
         description: 'Вывоз снега и уборка территории.',
         thumbnail: 'thumbnails/SnowRemoval.png',
         content: snowRemovalContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif', '5.avif']
       },
       'Excavation': {
         title: 'Вывоз грунта',
@@ -1365,7 +1365,7 @@
         description: 'Вывоз грунта и земляные работы.',
         thumbnail: 'thumbnails/Excavation.png',
         content: excavationContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       'Grading': {
         title: '',
@@ -1373,7 +1373,7 @@
         description: '',
         thumbnail: 'thumbnails/grading.png',
         content: gradingContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       'Gravelling': {
         title: 'Отсыпка дороги или участка щебнем',
@@ -1490,7 +1490,7 @@
 
     if(category && categories[category]){
       var current = categories[category];
-      if(category === 'Asphalt' || category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'SnowRemoval' || category === 'Excavation' || category === 'Flagstone' || category === 'Landscape' || category === 'RolledLawn' || category === 'Concreting' || category === 'Rubber' || category === 'Steps' || category === 'Pit'){
+      if(category === 'Asphalt' || category === 'Curb' || category === 'Pavers' || category === 'Gravelling' || category === 'Lighting' || category === 'Drainage' || category === 'Apron' || category === 'Demolition' || category === 'Garbage' || category === 'SnowRemoval' || category === 'Excavation' || category === 'Flagstone' || category === 'Landscape' || category === 'RolledLawn' || category === 'Concreting' || category === 'Rubber' || category === 'Steps' || category === 'Pit' || category === 'Grading'){
         if(title) title.hidden = true;
         if(description) description.hidden = true;
       } else {
