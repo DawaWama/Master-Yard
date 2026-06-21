@@ -375,7 +375,7 @@
     var curbContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Curb/cower.jpg" alt="Установка бордюров" />' +
+          '<img class="service-cover" src="Curb/curb_cower.avif" alt="Установка бордюров" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Установка бордюров и разделение зон</h3>' +
@@ -1389,7 +1389,7 @@
         description: 'Установка бордюров и разделение зон.',
         thumbnail: 'thumbnails/бордюр.png',
         content: curbContent,
-        images: ['curb1.avif', 'curb2.avif', 'curb3.avif', 'curb4.avif', 'curb5.avif', 'curb6.avif']
+        images: ['curb_1.avif', 'curb_2.avif', 'curb_3.avif', 'curb_4.avif', 'curb_5.avif', 'curb_6.avif']
       },
       'Drainage': {
         title: 'Дренаж',
