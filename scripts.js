@@ -422,7 +422,7 @@
     var paversContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Pavers/cower.jpg" alt="Укладка тротуарной плитки и брусчатки" />' +
+          '<img class="service-cover" src="Pavers/pavers_cower.avif" alt="Укладка тротуарной плитки и брусчатки" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка тротуарной плитки,<br>брусчатки</h3>' +
@@ -451,22 +451,22 @@
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки брусчатки</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
-        '<article class="service-type"><img class="service-type-image" src="Pavers/type1.png" alt="Укладка плитки на готовое основание" /><h4>Укладка плитки<br>(брусчатки) на готовое основание</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Pavers/type2.png" alt="Укладка плитки на песчаную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчаную подушку</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Pavers/type3.png" alt="Укладка плитки на песчано-щебеночную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчано-<br>щебеночную подушку</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Pavers/type4.png" alt="Укладка тротуарной брусчатки с бетонированием" /><h4>Укладка тротуарной<br>брусчатки с бетонированием</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type_1.avif" alt="Укладка плитки на готовое основание" /><h4>Укладка плитки<br>(брусчатки) на готовое основание</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type_2.avif" alt="Укладка плитки на песчаную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчаную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type_3.avif" alt="Укладка плитки на песчано-щебеночную подушку" /><h4>Укладка плитки<br>(брусчатки) на песчано-<br>щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Pavers/type_4.avif" alt="Укладка тротуарной брусчатки с бетонированием" /><h4>Укладка тротуарной<br>брусчатки с бетонированием</h4></article>' +
       '</div>' +
       '<div class="service-about">' +
         '<h3>Популярные виды плитки / брусчатки</h3>' +
         '<div class="service-types">' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style1.png" alt="Брусчатка кирпичик" /><h4>Брусчатка кирпичик</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style2.png" alt="Тротуарная плитка" /><h4>Тротуарная плитка</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style3.png" alt="Брусчатка Старый Город" /><h4>Брусчатка Старый Город</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style4.png" alt="Брусчатка Новый Город" /><h4>Брусчатка Новый Город</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style5.png" alt="Гранитная брусчатка" /><h4>Гранитная брусчатка</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style6.png" alt="Камень песчаник" /><h4>Камень песчаник</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style7.png" alt="Клинкерная брусчатка" /><h4>Клинкерная брусчатка</h4></article>' +
-          '<article class="service-type"><img class="service-type-image" src="Pavers/style8.png" alt="Газонная решетка" /><h4>Газонная решетка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_1.avif" alt="Брусчатка кирпичик" /><h4>Брусчатка кирпичик</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_2.avif" alt="Тротуарная плитка" /><h4>Тротуарная плитка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_3.avif" alt="Брусчатка Старый Город" /><h4>Брусчатка Старый Город</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_4.avif" alt="Брусчатка Новый Город" /><h4>Брусчатка Новый Город</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_5.avif" alt="Гранитная брусчатка" /><h4>Гранитная брусчатка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_6.avif" alt="Камень песчаник" /><h4>Камень песчаник</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_7.avif" alt="Клинкерная брусчатка" /><h4>Клинкерная брусчатка</h4></article>' +
+          '<article class="service-type"><img class="service-type-image" src="Pavers/style_8.avif" alt="Газонная решетка" /><h4>Газонная решетка</h4></article>' +
         '</div>' +
       '</div>';
 
@@ -1263,7 +1263,7 @@
         description: 'Работы по укладке брусчатки.',
         thumbnail: 'thumbnails/Брусчатка.png',
         content: paversContent,
-        images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg','pavers9.jpeg', 'pavers10.jpeg', 'pavers11.jpeg', 'pavers12.jpeg', 'pavers13.jpeg', 'pavers14.jpeg']
+        images: ['pavers_1.avif', 'pavers_2.avif', 'pavers_3.avif', 'pavers_4.avif', 'pavers_5.avif', 'pavers_6.avif', 'pavers_7.avif', 'pavers_8.avif', 'pavers_9.avif', 'pavers_10.avif', 'pavers_11.avif', 'pavers_12.avif', 'pavers_13.avif']
       },
       'Asphalt': {
         title: 'Асфальт',
