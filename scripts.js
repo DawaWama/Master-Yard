@@ -322,7 +322,7 @@
     var gravelingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/graveling/cower.png" alt="Отсыпка дороги или участка щебнем" />' +
+          '<img class="service-cover" src="graveling/cower.png" alt="Отсыпка дороги или участка щебнем" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Отсыпка дороги или участка щебнем</h3>' +
@@ -342,19 +342,19 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type1_2.png" alt="Отсыпка щебнем одной фракции" />' +
+          '<img class="service-type-image" src="graveling/type1_2.png" alt="Отсыпка щебнем одной фракции" />' +
           '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type2_2.png" alt="Отсыпка щебнем двумя фракциями" />' +
+          '<img class="service-type-image" src="graveling/type2_2.png" alt="Отсыпка щебнем двумя фракциями" />' +
           '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type3_2.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
+          '<img class="service-type-image" src="graveling/type3_2.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
           '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="asphaltSubCategory/graveling/type4_2.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
+          '<img class="service-type-image" src="graveling/type4_2.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
           '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
         '</article>' +
       '</div>' +
@@ -422,7 +422,7 @@
     var paversContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Pavers/pavers_cower.avif" alt="Укладка тротуарной плитки и брусчатки" />' +
+          '<img class="service-cover" src="Pavers/pavers_cower_image.avif" alt="Укладка тротуарной плитки и брусчатки" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка тротуарной плитки,<br>брусчатки</h3>' +
@@ -473,7 +473,7 @@
     var landscapeContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Landscape/cower.png" alt="Озеленение участка, территории" />' +
+          '<img class="service-cover" src="Landscape/landscape_cower.avif" alt="Озеленение участка, территории" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Озеленение<br>участка, территории</h3>' +
@@ -502,10 +502,10 @@
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды озеленения</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
-        '<article class="service-type"><img class="service-type-image" src="Landscape/type1.png" alt="Укладка рулонного газона" /><h4>Укладка<br>рулонного газона<br>«Под Ключ»</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Landscape/type2.png" alt="Устройство посевного газона на готовом основании" /><h4>Устройство<br>посевного газона на<br>готовом основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Landscape/type3.png" alt="Устройство посевного газона «Под Ключ»" /><h4>Устройство<br>посевного газона<br>«Под Ключ»</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Landscape/type4.png" alt="Устройство посевного газона с антикротовой сеткой" /><h4>Устройство посевного газона<br>с антикротовой сеткой</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type1.avif" alt="Укладка рулонного газона" /><h4>Укладка<br>рулонного газона<br>«Под Ключ»</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type2.avif" alt="Устройство посевного газона на готовом основании" /><h4>Устройство<br>посевного газона на<br>готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type3.avif" alt="Устройство посевного газона «Под Ключ»" /><h4>Устройство<br>посевного газона<br>«Под Ключ»</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Landscape/type4.avif" alt="Устройство посевного газона с антикротовой сеткой" /><h4>Устройство посевного газона<br>с антикротовой сеткой</h4></article>' +
       '</div>';
 
     var drainageContent =
@@ -571,7 +571,7 @@
     var flagstoneContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Flagstone/cower.jpg" alt="Укладка дикого камня" />' +
+          '<img class="service-cover" src="Flagstone/flagstone_cower.avif" alt="Укладка дикого камня" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка дикого камня</h3>' +
@@ -709,7 +709,7 @@
     var rolledLawnContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="RolledLawn/cower.jpg" alt="Укладка рулонного газона" />' +
+          '<img class="service-cover" src="RolledLawn/rolledlawn_cower.avif" alt="Укладка рулонного газона" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка рулонного газона</h3>' +
@@ -759,31 +759,31 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="RolledLawn/Городской.png" alt="Газон Городской" />' +
+          '<img class="service-type-image" src="RolledLawn/Городской.avif" alt="Газон Городской" />' +
           '<h4>«Городской»</h4>' +
           '<p><strong>Цвет:</strong> Светло-зеленый</p>' +
           '<p><strong>Состав:</strong> Мятлик луговой 100%, Canada, 3-х летний</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="RolledLawn/Универсальный.png" alt="Газон Универсальный" />' +
+          '<img class="service-type-image" src="RolledLawn/Универсальный.avif" alt="Газон Универсальный" />' +
           '<h4>«Универсальный»</h4>' +
           '<p><strong>Цвет:</strong> Равномерно однородный зеленый</p>' +
           '<p><strong>Состав:</strong> Мятлик луговой 80%, овсяница красная 20% Canada, 3-х летний</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="RolledLawn/Эталон.png" alt="Газон Эталон" />' +
+          '<img class="service-type-image" src="RolledLawn/Эталон.avif" alt="Газон Эталон" />' +
           '<h4>«Эталон»</h4>' +
           '<p><strong>Цвет:</strong> Однородный темно-зеленый</p>' +
           '<p><strong>Состав:</strong> Мятлик луговой 100%, Canada, 3-х летний</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="RolledLawn/Спортивный.png" alt="Газон Спортивный" />' +
+          '<img class="service-type-image" src="RolledLawn/Спортивный.avif" alt="Газон Спортивный" />' +
           '<h4>«Спортивный»</h4>' +
           '<p><strong>Цвет:</strong> Насыщенный изумрудный</p>' +
           '<p><strong>Состав:</strong> Мятлик луговой 100%, USA, 3-х летний</p>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="RolledLawn/Парковый.png" alt="Газон Парковый" />' +
+          '<img class="service-type-image" src="RolledLawn/Парковый.avif" alt="Газон Парковый" />' +
           '<h4>«Парковый»</h4>' +
           '<p><strong>Цвет:</strong> Темно-зеленый с изумрудным оттенком</p>' +
           '<p><strong>Состав:</strong> 80% газонные сорта овсяницы, 20% мятлик луговой</p>' +
@@ -1278,7 +1278,7 @@
         description: '',
         thumbnail: 'thumbnails/Ландшафт.png',
         content: landscapeContent,
-        images: ['Landscape1.jpg','Landscape2.jpg','Landscape3.jpg','Landscape4.jpg']
+        images: ['landscape_1.avif','landscape_2.avif','landscape_3.avif','Landscape4.avif']
       },
       'Lawn': {
         title: 'Газон и полив',
@@ -1293,7 +1293,7 @@
         description: '',
         thumbnail: 'thumbnails/RolledLawn.png',
         content: rolledLawnContent,
-        images: ['1.jpg','2.jpg','3.jpg','4.jpg']
+        images: ['rolledlawn_1.avif','rolledlawn_2.avif','rolledlawn_3.avif','rolledlawn_4.png']
       },
       'Flagstone': {
         title: '',
@@ -1301,7 +1301,7 @@
         description: '',
         thumbnail: 'thumbnails/Дикий камень.png',
         content: flagstoneContent,
-        images: ['1.jpeg','2.jpeg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg']
+        images: ['flagstone_1.avif','flagstone_2.avif','flagstone_3.avif','flagstone_4.avif','flagstone_5.avif','flagstone_6.png','flagstone_7.png']
       },
       'Lighting': {
         title: 'Освещение',
@@ -1368,18 +1368,18 @@
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       'Grading': {
-        title: 'Планировка участка',
+        title: '',
         folder: 'Grading/',
-        description: 'Планировка и выравнивание участка.',
+        description: '',
         thumbnail: 'thumbnails/grading.png',
         content: gradingContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
       'Gravelling': {
         title: 'Отсыпка дороги или участка щебнем',
-        folder: 'asphaltSubCategory/graveling/',
+        folder: 'graveling/',
         description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции.',
-        thumbnail: 'asphaltSubCategory/graveling/graveling.png',
+        thumbnail: 'graveling/graveling.png',
         content: gravelingContent,
         images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
       },
