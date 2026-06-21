@@ -322,7 +322,7 @@
     var gravelingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="graveling/cower.png" alt="Отсыпка дороги или участка щебнем" />' +
+          '<img class="service-cover" src="graveling/graveling_cower.avif" alt="Отсыпка дороги или участка щебнем" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Отсыпка дороги или участка щебнем</h3>' +
@@ -342,19 +342,19 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type1_2.png" alt="Отсыпка щебнем одной фракции" />' +
+          '<img class="service-type-image" src="graveling/type1_2.avif" alt="Отсыпка щебнем одной фракции" />' +
           '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type2_2.png" alt="Отсыпка щебнем двумя фракциями" />' +
+          '<img class="service-type-image" src="graveling/type2_2.avif" alt="Отсыпка щебнем двумя фракциями" />' +
           '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type3_2.png" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
+          '<img class="service-type-image" src="graveling/type3_2.avif" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
           '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type4_2.png" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
+          '<img class="service-type-image" src="graveling/type4_2.avif" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
           '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
         '</article>' +
       '</div>' +
@@ -511,7 +511,7 @@
     var drainageContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Drainage/cower.png" alt="Дренажные работы" />' +
+          '<img class="service-cover" src="Drainage/drainage_cower.avif" alt="Дренажные работы" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Дренажные работы<br>"Под Ключ"</h3>' +
@@ -541,7 +541,7 @@
     var lightingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Lighting/cower.png" alt="Освещение участка" />' +
+          '<img class="service-cover" src="Lighting/cower.avif" alt="Освещение участка" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Освещение участка,<br>территории, террасы<br>"Под Ключ"</h3>' +
@@ -643,7 +643,7 @@
     var concretingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Concreting/cower.jpg" alt="Бетонирование площадки и дорожек" />' +
+          '<img class="service-cover" src="Concreting/ChatGPT Image Jun 21, 2026, 10_10_22 PM.avif" alt="Бетонирование площадки и дорожек" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Бетонирование площадки<br>и дорожек</h3>' +
@@ -669,17 +669,17 @@
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды бетонирования</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
-        '<article class="service-type"><img class="service-type-image" src="Concreting/type1.png" alt="Бетонирование на готовом основании" /><h4>Бетонирование<br>на готовом основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Concreting/type2.png" alt="Бетонирование на песчаном основании" /><h4>Бетонирование<br>на песчаном основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Concreting/type3.png" alt="Бетонирование на песчано-щебеночном основании" /><h4>Бетонирование на<br>песчано - щебеночном основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Concreting/type4.png" alt="Бетонирование на песчаном основании с утеплением" /><h4>Бетонирование на песчаном основании<br>с утеплением</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="Concreting/type5.png" alt="Бетонирование с утеплителем" /><h4>Бетонирование на песчано - щебеночном основании<br>с утеплителем</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type1.avif" alt="Бетонирование на готовом основании" /><h4>Бетонирование<br>на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type2.avif" alt="Бетонирование на песчаном основании" /><h4>Бетонирование<br>на песчаном основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type3.avif" alt="Бетонирование на песчано-щебеночном основании" /><h4>Бетонирование на<br>песчано - щебеночном основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type4.avif" alt="Бетонирование на песчаном основании с утеплением" /><h4>Бетонирование на песчаном основании<br>с утеплением</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="Concreting/type5.avif" alt="Бетонирование с утеплителем" /><h4>Бетонирование на песчано - щебеночном основании<br>с утеплителем</h4></article>' +
       '</div>';
 
     var rubberContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Rubber/cower.jpg" alt="Укладка бесшовного резинового покрытия" />' +
+          '<img class="service-cover" src="Rubber/cower.avif" alt="Укладка бесшовного резинового покрытия" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка бесшовного<br>резинового покрытия</h3>' +
@@ -1127,7 +1127,7 @@
     var stepsContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Steps/cower.jpg" alt="Облицовка крыльца" />' +
+          '<img class="service-cover" src="Steps/cower.avif" alt="Облицовка крыльца" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Облицовка крыльца, ступеней<br>"Под Ключ"</h3>' +
@@ -1307,9 +1307,9 @@
         title: 'Освещение',
         folder: 'Lighting/',
         description: 'Освещение участка, территории, террасы.',
-        thumbnail: 'thumbnails/Lighting.png',
+        thumbnail: 'thumbnails/lighting.webp',
         content: lightingContent,
-        images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.png']
+        images: ['1.avif','2.avif','3.avif','4.avif','5.avif','6.avif','7.avif','8.avif']
       },
       'Steps': {
         title: '',
@@ -1317,7 +1317,7 @@
         description: '',
         thumbnail: 'thumbnails/steps.png',
         content: stepsContent,
-        images: []
+        images: ['1.avif','2.avif','3.avif','4.avif','5.avif']
       },
       'Pit': {
         title: '',
@@ -1381,7 +1381,7 @@
         description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции.',
         thumbnail: 'graveling/graveling.png',
         content: gravelingContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['graveling_1.avif', 'graveling_2.avif', 'graveling_3.avif', 'graveling_4.avif', 'graveling_5.avif']
       },
       'Curb': {
         title: 'Бордюр',
@@ -1397,7 +1397,7 @@
         description: 'Дренажные работы «Под Ключ».',
         thumbnail: 'thumbnails/Дренаж и септик.png',
         content: drainageContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg']
+        images: ['drainage_1.avif', 'drainage_2.avif', 'drainage_3.avif', 'drainage_4.avif', 'drainage_5.avif', 'drainage_6.avif']
       },
       'Concreting': {
         title: '',
@@ -1405,7 +1405,7 @@
         description: '',
         thumbnail: 'thumbnails/Бетонирование.png',
         content: concretingContent,
-        images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.png']
+        images: ['1.avif','2.avif','3.avif','4.avif','5.avif']
       },
       'Rubber': {
         title: '',
@@ -1413,7 +1413,7 @@
         description: '',
         thumbnail: 'thumbnails/резин.png',
         content: rubberContent,
-        images: ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg']
+        images: ['1.avif','2.avif','3.avif','4.avif']
       }
     };
 
