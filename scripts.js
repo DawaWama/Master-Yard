@@ -1263,7 +1263,7 @@
         description: 'Работы по укладке брусчатки.',
         thumbnail: 'thumbnails/Брусчатка.png',
         content: paversContent,
-        images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg','pavers9.jpeg']
+        images: ['pavers1.jpeg','pavers2.jpeg','pavers3.jpeg','pavers4.jpeg','pavers5.jpeg','pavers6.jpeg','pavers7.jpeg','pavers8.jpeg','pavers9.jpeg', 'pavers10.jpeg', 'pavers11.jpeg', 'pavers12.jpeg', 'pavers13.jpeg', 'pavers14.jpeg']
       },
       'Asphalt': {
         title: 'Асфальт',
@@ -1389,7 +1389,7 @@
         description: 'Установка бордюров и разделение зон.',
         thumbnail: 'thumbnails/бордюр.png',
         content: curbContent,
-        images: ['curb1.jpeg','2.jpg','3.jpg','4.jpg']
+        images: ['1.jpeg','2.jpg','3.jpg','4.jpg', '5.jpeg', '6.avif']
       },
       'Drainage': {
         title: 'Дренаж',
