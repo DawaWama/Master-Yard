@@ -1389,7 +1389,7 @@
         description: 'Установка бордюров и разделение зон.',
         thumbnail: 'thumbnails/бордюр.png',
         content: curbContent,
-        images: ['1.jpeg','2.jpg','3.jpg','4.jpg', '5.jpeg', '6.avif']
+        images: ['curb1.avif', 'curb2.avif', 'curb3.avif', 'curb4.avif', 'curb5.avif', 'curb6.avif']
       },
       'Drainage': {
         title: 'Дренаж',
