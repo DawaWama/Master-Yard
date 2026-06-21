@@ -1163,7 +1163,7 @@
     var pitContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Pit/cower.avif" alt="Разработка котлована" />' +
+          '<img class="service-cover" src="pit/cower.avif" alt="Разработка котлована" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Рытье котлованов под<br>фундамент</h3>' +
@@ -1321,7 +1321,7 @@
       },
       'Pit': {
         title: '',
-        folder: 'Pit/',
+        folder: 'pit/',
         description: '',
         thumbnail: 'thumbnails/pit.png',
         content: pitContent,
