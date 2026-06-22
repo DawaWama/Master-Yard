@@ -103,7 +103,7 @@
     var roadAsphaltPavingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/roadAsphaltPaving/cower.png" alt="Асфальтирование дорог" />' +
+          '<img class="service-cover" src="asphaltSubCategory/roadAsphaltPaving/cower_asphalt.avif" alt="Асфальтирование дорог" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Асфальтирование дорог</h3>' +
@@ -1206,10 +1206,10 @@
       roadAsphaltPaving: {
         title: 'Асфальтирование дорог',
         folder: 'asphaltSubCategory/roadAsphaltPaving/',
-        thumbnail: 'asphaltSubCategory/roadAsphaltPaving/RoadAsphaltPaving.png',
+        thumbnail: 'asphaltSubCategory/roadAsphaltPaving/RoadAsphaltPaving.avif',
         description: 'Устройство и восстановление асфальтового покрытия на автомобильных дорогах: подготовка основания, укладка асфальтобетонной смеси, уплотнение и выравнивание.',
         content: roadAsphaltPavingContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       asphaltPavingAreas: {
         title: 'Асфальтирование территорий',
