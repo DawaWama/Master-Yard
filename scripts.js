@@ -1258,7 +1258,7 @@
         folder: 'Asphalt/',
         description: 'Примеры асфальтирования дворов и участков.',
         thumbnail: 'thumbnails/asphalt.webp',
-        images: ['Asphalt1.jpg']
+        images: []
       },
       'Landscape': {
         title: '',
