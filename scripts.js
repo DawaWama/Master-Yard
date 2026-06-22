@@ -322,7 +322,7 @@
     var gravelingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="graveling/graveling_cower.avif" alt="Отсыпка дороги или участка щебнем" />' +
+          '<img class="service-cover" src="Graveling/graveling_cower.avif" alt="Отсыпка дороги или участка щебнем" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Отсыпка дороги или участка щебнем</h3>' +
@@ -342,19 +342,19 @@
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type1_2.avif" alt="Отсыпка щебнем одной фракции" />' +
+          '<img class="service-type-image" src="Graveling/type1_2.avif" alt="Отсыпка щебнем одной фракции" />' +
           '<h4>Отсыпка щебнем<br>одной фракции</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type2_2.avif" alt="Отсыпка щебнем двумя фракциями" />' +
+          '<img class="service-type-image" src="Graveling/type2_2.avif" alt="Отсыпка щебнем двумя фракциями" />' +
           '<h4>Отсыпка щебнем<br>двумя фракциями</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type3_2.avif" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
+          '<img class="service-type-image" src="Graveling/type3_2.avif" alt="Отсыпка щебня с покрытием гранитного отсева" />' +
           '<h4>Отсыпка щебня с<br>покрытием гранитного<br>отсева</h4>' +
         '</article>' +
         '<article class="service-type">' +
-          '<img class="service-type-image" src="graveling/type4_2.avif" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
+          '<img class="service-type-image" src="Graveling/type4_2.avif" alt="Отсыпка щебня на песчаную подушку двумя фракциями" />' +
           '<h4>Отсыпка щебня на<br>песчаную подушку<br>двумя фракциями</h4>' +
         '</article>' +
       '</div>' +
@@ -1358,7 +1358,7 @@
       },
       'Gravelling': {
         title: 'Отсыпка дороги или участка щебнем',
-        folder: 'graveling/',
+        folder: 'Graveling/',
         description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции.',
         thumbnail: 'thumbnails/graveling.webp',
         content: gravelingContent,
@@ -1425,7 +1425,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Pavers','Asphalt','Landscape','Lawn','RolledLawn','Flagstone','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Demolition', 'Garbage', 'SnowRemoval', 'Excavation'];
+      var worksCategories = ['Flagstone', 'roadAsphaltPaving','Landscape','Lawn','RolledLawn','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Pavers', 'Demolition', 'Garbage','Concreting','Rubber', 'Gravelling', 'SnowRemoval', 'Excavation'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
@@ -1441,7 +1441,7 @@
     if(category === 'Asphalt' && sub && asphaltSubcategories[sub]){
       var currentSub = asphaltSubcategories[sub];
       if(title){
-        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'graveling' || sub === 'asphaltMillings'){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'asphaltMillings'){
           title.hidden = true;
         } else {
           title.hidden = false;
@@ -1449,7 +1449,7 @@
         }
       }
       if(description){
-        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'graveling' || sub === 'asphaltMillings'){
+        if(sub === 'plotAsphaltPaving' || sub === 'potholeRepair' || sub === 'asphaltPavingAreas' || sub === 'roadAsphaltPaving' || sub === 'asphaltMillings'){
           description.hidden = true;
         } else {
           description.hidden = false;
