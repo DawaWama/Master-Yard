@@ -643,7 +643,7 @@
     var concretingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="Concreting/ChatGPT Image Jun 21, 2026, 10_10_22 PM.avif" alt="Бетонирование площадки и дорожек" />' +
+          '<img class="service-cover" src="Concreting/cower.avif" alt="Бетонирование площадки и дорожек" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Бетонирование площадки<br>и дорожек</h3>' +
@@ -1062,18 +1062,7 @@
             '<li>бетонирование в ручную 10 см (М350)</li>' +
           '</ul>' +
         '</article>' +
-        '<article class="service-type">' +
-          '<h4>Отмостка вокруг дома из<br>резинового покрытия Под Ключ</h4>' +
-          '<ul>' +
-            '<li>выемка грунта 25 - 35 см</li>' +
-            '<li>подготовка основания</li>' +
-            '<li>укладка геотекстиля</li>' +
-            '<li>отсыпка песка (8-12 см) и трамбовка</li>' +
-            '<li>отсыпка щебня (8-12 см) и трамбовка</li>' +
-            '<li>нанесение клея</li>' +
-            '<li>резиновое покрытие</li>' +
-          '</ul>' +
-        '</article>' +
+
       '</div>' +
       '<h3 class="service-detail-heading service-detail-heading--scroll">Дополнительные работы</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
@@ -1261,7 +1250,7 @@
         title: 'Брусчатка',
         folder: 'Pavers/',
         description: 'Работы по укладке брусчатки.',
-        thumbnail: 'thumbnails/Брусчатка.png',
+        thumbnail: 'thumbnails/pavers.webp',
         content: paversContent,
         images: ['pavers_1.avif', 'pavers_2.avif', 'pavers_3.avif', 'pavers_4.avif', 'pavers_5.avif', 'pavers_6.avif', 'pavers_7.avif', 'pavers_8.avif', 'pavers_9.avif', 'pavers_10.avif', 'pavers_11.avif', 'pavers_12.avif', 'pavers_13.avif']
       },
@@ -1269,14 +1258,14 @@
         title: 'Асфальт',
         folder: 'Asphalt/',
         description: 'Примеры асфальтирования дворов и участков.',
-        thumbnail: 'thumbnails/Асфальт.png',
+        thumbnail: 'thumbnails/asphalt.webp',
         images: ['Asphalt1.jpg']
       },
       'Landscape': {
         title: '',
         folder: 'Landscape/',
         description: '',
-        thumbnail: 'thumbnails/Ландшафт.png',
+        thumbnail: 'thumbnails/landscape.webp',
         content: landscapeContent,
         images: ['landscape_1.avif','landscape_2.avif','landscape_3.avif','Landscape4.avif']
       },
@@ -1284,14 +1273,14 @@
         title: 'Газон и полив',
         folder: 'Lawn/',
         description: 'Устройство газона и систем полива.',
-        thumbnail: 'thumbnails/Газон и полив.png',
+        thumbnail: 'thumbnails/lawn.webp',
         images: ['Lawn1.jpg']
       },
       'RolledLawn': {
         title: '',
         folder: 'RolledLawn/',
         description: '',
-        thumbnail: 'thumbnails/RolledLawn.png',
+        thumbnail: 'thumbnails/rolledlawn.webp',
         content: rolledLawnContent,
         images: ['rolledlawn_1.avif','rolledlawn_2.avif','rolledlawn_3.avif','rolledlawn_4.png']
       },
@@ -1299,7 +1288,7 @@
         title: '',
         folder: 'Flagstone/',
         description: '',
-        thumbnail: 'thumbnails/Дикий камень.png',
+        thumbnail: 'thumbnails/flagstone.webp',
         content: flagstoneContent,
         images: ['flagstone_1.avif','flagstone_2.avif','flagstone_3.avif','flagstone_4.avif','flagstone_5.avif','flagstone_6.png','flagstone_7.png']
       },
@@ -1315,7 +1304,7 @@
         title: '',
         folder: 'Steps/',
         description: '',
-        thumbnail: 'thumbnails/steps.png',
+        thumbnail: 'thumbnails/steps.webp',
         content: stepsContent,
         images: ['1.avif','2.avif','3.avif','4.avif','5.avif']
       },
@@ -1323,7 +1312,7 @@
         title: '',
         folder: 'pit/',
         description: '',
-        thumbnail: 'thumbnails/pit.png',
+        thumbnail: 'thumbnails/pit.webp',
         content: pitContent,
         images: ['1.avif','2.avif','3.avif','4.avif']
       },
@@ -1331,23 +1320,23 @@
         title: 'Отмостка вокруг дома',
         folder: 'Apron/',
         description: 'Устройство и ремонт отмостки вокруг дома и зданий.',
-        thumbnail: 'thumbnails/Apron.png',
+        thumbnail: 'thumbnails/apron.webp',
         content: apronContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       'Demolition': {
         title: 'Снос, демонтаж дома',
         folder: 'Demolition/',
         description: 'Снос и демонтаж домов, зданий и сооружений.',
-        thumbnail: 'thumbnails/Demolition.png',
+        thumbnail: 'thumbnails/demolition.webp',
         content: demolitionContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       'Garbage': {
         title: 'Вывоз строй мусора',
         folder: 'Garbage/',
         description: 'Вывоз строительного мусора в Москве и МО.',
-        thumbnail: 'thumbnails/Garbage.png',
+        thumbnail: 'thumbnails/garbage.webp',
         content: garbageContent,
         images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
@@ -1355,7 +1344,7 @@
         title: 'Вывоз снега',
         folder: 'SnowRemoval/',
         description: 'Вывоз снега и уборка территории.',
-        thumbnail: 'thumbnails/SnowRemoval.png',
+        thumbnail: 'thumbnails/SnowRemoval.webp',
         content: snowRemovalContent,
         images: ['1.avif', '2.avif', '3.avif', '4.avif', '5.avif']
       },
@@ -1363,7 +1352,7 @@
         title: 'Вывоз грунта',
         folder: 'Excavation/',
         description: 'Вывоз грунта и земляные работы.',
-        thumbnail: 'thumbnails/Excavation.png',
+        thumbnail: 'thumbnails/Excavation.webp',
         content: excavationContent,
         images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
@@ -1371,7 +1360,7 @@
         title: '',
         folder: 'Grading/',
         description: '',
-        thumbnail: 'thumbnails/grading.png',
+        thumbnail: 'thumbnails/grading.webp',
         content: gradingContent,
         images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
@@ -1387,7 +1376,7 @@
         title: 'Бордюр',
         folder: 'Curb/',
         description: 'Установка бордюров и разделение зон.',
-        thumbnail: 'thumbnails/бордюр.png',
+        thumbnail: 'thumbnails/curb.webp',
         content: curbContent,
         images: ['curb_1.avif', 'curb_2.avif', 'curb_3.avif', 'curb_4.avif', 'curb_5.avif', 'curb_6.avif']
       },
@@ -1395,7 +1384,7 @@
         title: 'Дренаж',
         folder: 'Drainage/',
         description: 'Дренажные работы «Под Ключ».',
-        thumbnail: 'thumbnails/Дренаж и септик.png',
+        thumbnail: 'thumbnails/drainage.webp',
         content: drainageContent,
         images: ['drainage_1.avif', 'drainage_2.avif', 'drainage_3.avif', 'drainage_4.avif', 'drainage_5.avif', 'drainage_6.avif']
       },
@@ -1403,7 +1392,7 @@
         title: '',
         folder: 'Concreting/',
         description: '',
-        thumbnail: 'thumbnails/Бетонирование.png',
+        thumbnail: 'thumbnails/concreting.webp',
         content: concretingContent,
         images: ['1.avif','2.avif','3.avif','4.avif','5.avif']
       },
@@ -1411,7 +1400,7 @@
         title: '',
         folder: 'Rubber/',
         description: '',
-        thumbnail: 'thumbnails/резин.png',
+        thumbnail: 'thumbnails/rubber.webp',
         content: rubberContent,
         images: ['1.avif','2.avif','3.avif','4.avif']
       }
