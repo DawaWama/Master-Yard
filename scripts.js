@@ -1268,20 +1268,13 @@
         content: landscapeContent,
         images: ['landscape_1.avif','landscape_2.avif','landscape_3.avif','Landscape4.avif']
       },
-      'Lawn': {
-        title: 'Газон и полив',
-        folder: 'Lawn/',
-        description: 'Устройство газона и систем полива.',
-        thumbnail: 'thumbnails/lawn.webp',
-        images: ['Lawn1.jpg']
-      },
       'RolledLawn': {
         title: '',
         folder: 'RolledLawn/',
         description: '',
         thumbnail: 'thumbnails/rolledlawn.webp',
         content: rolledLawnContent,
-        images: ['rolledlawn_1.avif','rolledlawn_2.avif','rolledlawn_3.avif','rolledlawn_4.png']
+        images: ['rolledlawn_1.avif','rolledlawn_2.avif','rolledlawn_3.avif','rolledlawn_4.avif']
       },
       'Flagstone': {
         title: '',
@@ -1289,7 +1282,7 @@
         description: '',
         thumbnail: 'thumbnails/flagstone.webp',
         content: flagstoneContent,
-        images: ['flagstone_1.avif','flagstone_2.avif','flagstone_3.avif','flagstone_4.avif','flagstone_5.avif','flagstone_6.png','flagstone_7.png']
+        images: ['flagstone_1.avif','flagstone_2.avif','flagstone_3.avif','flagstone_4.avif','flagstone_5.avif','flagstone_6.avif','flagstone_7.avif']
       },
       'Lighting': {
         title: 'Освещение',
@@ -1367,7 +1360,7 @@
         title: 'Отсыпка дороги или участка щебнем',
         folder: 'graveling/',
         description: 'Отсыпка и выравнивание дорог и участков щебнем различной фракции.',
-        thumbnail: 'graveling/graveling.png',
+        thumbnail: 'thumbnails/graveling.webp',
         content: gravelingContent,
         images: ['graveling_1.avif', 'graveling_2.avif', 'graveling_3.avif', 'graveling_4.avif', 'graveling_5.avif']
       },
