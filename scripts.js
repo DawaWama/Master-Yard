@@ -176,7 +176,7 @@
     var potholeRepairContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/potholeRepair/cower.png" alt="Ямочный ремонт" />' +
+          '<img class="service-cover" src="asphaltSubCategory/potholeRepair/cower.avif" alt="Ямочный ремонт" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Ямочный ремонт</h3>' +
@@ -607,7 +607,7 @@
     var asphaltMillingsContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/asphaltMillings/cower.png" alt="Укладка асфальтной крошки" />' +
+          '<img class="service-cover" src="asphaltSubCategory/asphaltMillings/cower.avif" alt="Укладка асфальтной крошки" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Укладка асфальтной крошки</h3>' +
@@ -620,11 +620,11 @@
       '<h3 class="service-detail-heading service-detail-heading--scroll">Виды укладки асфальтовой крошки</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
       '<div class="service-types">' +
-        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type1.png" alt="Укладка асфальтовой крошки на готовом основании" /><h4>Укладка асфальтовой крошки<br>на готовом основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type2.png" alt="Укладка асфальтовой крошки 2 слоя на готовом основании" /><h4>Укладка асфальтовой крошки<br>2 слоя на готовом основании</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type3.png" alt="Укладка асфальтовой крошки на щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на щебеночную подушку</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type4.png" alt="Укладка асфальтовой крошки на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на песчано - щебеночную подушку</h4></article>' +
-        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type5.png" alt="Укладка асфальтовой крошки в 2 слоя на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>в 2 слоя на песчано - щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type1.avif" alt="Укладка асфальтовой крошки на готовом основании" /><h4>Укладка асфальтовой крошки<br>на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type2.avif" alt="Укладка асфальтовой крошки 2 слоя на готовом основании" /><h4>Укладка асфальтовой крошки<br>2 слоя на готовом основании</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type3.avif" alt="Укладка асфальтовой крошки на щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type4.avif" alt="Укладка асфальтовой крошки на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>на песчано - щебеночную подушку</h4></article>' +
+        '<article class="service-type"><img class="service-type-image" src="asphaltSubCategory/asphaltMillings/type5.avif" alt="Укладка асфальтовой крошки в 2 слоя на песчано - щебеночную подушку" /><h4>Укладка асфальтовой крошки<br>в 2 слоя на песчано - щебеночную подушку</h4></article>' +
       '</div>' +
       '<h3 class="service-detail-heading">Почему выгоднее заказать асфальтную крошку именно у нас?</h3>' +
       '<div class="service-flow">' +
@@ -1229,18 +1229,18 @@
       potholeRepair: {
         title: '',
         folder: 'asphaltSubCategory/potholeRepair/',
-        thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.png',
+        thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.avif',
         description: '',
         content: potholeRepairContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       asphaltMillings: {
         title: 'Укладка асфальтной крошки',
         folder: 'asphaltSubCategory/asphaltMillings/',
-        thumbnail: 'asphaltSubCategory/asphaltMillings/asphaltMillings.png',
+        thumbnail: 'asphaltSubCategory/asphaltMillings/asphaltMillings.avif',
         description: '',
         content: asphaltMillingsContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
     };
 
