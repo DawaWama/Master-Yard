@@ -270,7 +270,7 @@
     var plotAsphaltPavingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/plotAsphaltPaving/cower.avif" alt="Асфальтирование участков" />' +
+          '<img class="service-cover" src="asphaltSubCategory/plotAsphaltPaving/cower_plotAsphaltPaving.avif" alt="Асфальтирование участков" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Асфальтирование участков</h3>' +
@@ -1062,7 +1062,6 @@
             '<li>бетонирование в ручную 10 см (М350)</li>' +
           '</ul>' +
         '</article>' +
-
       '</div>' +
       '<h3 class="service-detail-heading service-detail-heading--scroll">Дополнительные работы</h3>' +
       '<p class="service-scroll-hint">Прокрутите влево, чтобы увидеть все варианты</p>' +
@@ -1207,7 +1206,7 @@
         title: 'Асфальтирование дорог',
         folder: 'asphaltSubCategory/roadAsphaltPaving/',
         thumbnail: 'asphaltSubCategory/roadAsphaltPaving/RoadAsphaltPaving.avif',
-        description: 'Устройство и восстановление асфальтового покрытия на автомобильных дорогах: подготовка основания, укладка асфальтобетонной смеси, уплотнение и выравнивание.',
+        description: 'Строительство и ремонт асфальтовых дорог.',
         content: roadAsphaltPavingContent,
         images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
@@ -1228,7 +1227,7 @@
         images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       potholeRepair: {
-        title: ''
+        title: '',
         folder: 'asphaltSubCategory/potholeRepair/',
         thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.png',
         description: '',
