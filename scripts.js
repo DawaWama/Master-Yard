@@ -218,7 +218,7 @@
     var asphaltPavingAreasContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/asphaltPavingAreas/cower.png" alt="Асфальтирование территорий" />' +
+          '<img class="service-cover" src="asphaltSubCategory/asphaltPavingAreas/cower.avif" alt="Асфальтирование территорий" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Асфальтирование территорий</h3>' +
@@ -270,7 +270,7 @@
     var plotAsphaltPavingContent =
       '<div class="service-hero service-hero--cover">' +
         '<div class="service-cover-wrap">' +
-          '<img class="service-cover" src="asphaltSubCategory/plotAsphaltPaving/cower.png" alt="Асфальтирование участков" />' +
+          '<img class="service-cover" src="asphaltSubCategory/plotAsphaltPaving/cower.avif" alt="Асфальтирование участков" />' +
           '<div class="service-cover-overlay" aria-hidden="true"></div>' +
           '<div class="service-cover-content">' +
             '<h3 class="service-cover-title">Асфальтирование участков</h3>' +
@@ -1214,21 +1214,21 @@
       asphaltPavingAreas: {
         title: 'Асфальтирование территорий',
         folder: 'asphaltSubCategory/asphaltPavingAreas/',
-        thumbnail: 'asphaltSubCategory/asphaltPavingAreas/AsphaltPavingAreas.png',
+        thumbnail: 'asphaltSubCategory/asphaltPavingAreas/AsphaltPavingAreas.avif',
         description: 'Асфальтирование парковок, складских, производственных и общественных территорий с учётом нагрузки и требований к покрытию.',
         content: asphaltPavingAreasContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif', '5.avif']
       },
       plotAsphaltPaving: {
         title: 'Асфальтирование участков',
         folder: 'asphaltSubCategory/plotAsphaltPaving/',
-        thumbnail: 'asphaltSubCategory/plotAsphaltPaving/PlotAsphaltPaving.png',
+        thumbnail: 'asphaltSubCategory/plotAsphaltPaving/PlotAsphaltPaving.avif',
         description: 'Асфальтирование частных дворов, подъездных путей и придомовых участков — аккуратно, с подготовкой основания и качественной укладкой.',
         content: plotAsphaltPavingContent,
-        images: ['1.jpg', '2.jpg', '3.jpg', '4.jpg']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif']
       },
       potholeRepair: {
-        title: '',
+        title: ''
         folder: 'asphaltSubCategory/potholeRepair/',
         thumbnail: 'asphaltSubCategory/potholeRepair/PotholeRepair.png',
         description: '',
