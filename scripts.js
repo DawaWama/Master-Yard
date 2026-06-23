@@ -1069,7 +1069,6 @@
       '<div class="service-types">' +
         '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type1_garden_border2.avif" alt="Установка садового бордюра" /><h4>Установка<br>садового<br>бордюра</h4></article>' +
         '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type2_rain2.avif" alt="Установка водоотводных лотков или дождеприемников" /><h4>Установка<br>водоотводных<br>лотков или<br>дождеприемников</h4></article>' +
-        '<article class="service-type service-type--bottom-text"><img class="service-type-image" src="Apron/type3_geomembrane2.avif" alt="Гидроизоляция фундамента геомембраной" /><h4>Гидроизоляция<br>фундамента<br>геомембраной</h4></article>' +
       '</div>';
 
     var gradingContent =
@@ -1251,7 +1250,7 @@
         description: 'Работы по укладке брусчатки.',
         thumbnail: 'thumbnails/pavers.webp',
         content: paversContent,
-        images: ['pavers_1.avif', 'pavers_2.avif', 'pavers_3.avif', 'pavers_4.avif', 'pavers_5.avif', 'pavers_6.avif', 'pavers_7.avif', 'pavers_8.avif', 'pavers_9.avif', 'pavers_10.avif', 'pavers_11.avif', 'pavers_12.avif', 'pavers_13.avif']
+        images: ['pavers_1.avif', 'pavers_2.avif', 'pavers_3.avif', 'pavers_4.avif', 'pavers_5.avif', 'pavers_6.avif', 'pavers_7.avif', 'pavers_8.avif', 'pavers_9.avif', 'pavers_10.avif', 'pavers_11.avif', 'pavers_12.avif', 'pavers_13.avif', 'pavers_14.avif']
       },
       'Asphalt': {
         title: 'Асфальт',
@@ -1314,7 +1313,7 @@
         description: 'Устройство и ремонт отмостки вокруг дома и зданий.',
         thumbnail: 'thumbnails/apron.webp',
         content: apronContent,
-        images: ['1.avif', '2.avif', '3.avif', '4.avif']
+        images: ['1.avif', '2.avif', '3.avif', '4.avif', '5.avif']
       },
       'Demolition': {
         title: 'Снос, демонтаж дома',
@@ -1386,7 +1385,7 @@
         description: '',
         thumbnail: 'thumbnails/concreting.webp',
         content: concretingContent,
-        images: ['1.avif','2.avif','3.avif','4.avif','5.avif']
+        images: ['1.avif','2.avif','3.avif','4.avif','5.avif', '6.avif', '7.avif', '8.avif', '9.avif']
       },
       'Rubber': {
         title: '',
@@ -1425,7 +1424,7 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Flagstone', 'roadAsphaltPaving','Landscape','Lawn','RolledLawn','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Pavers', 'Demolition', 'Garbage','Concreting','Rubber', 'Gravelling', 'SnowRemoval', 'Excavation'];
+      var worksCategories = ['Flagstone','Landscape','Lawn','RolledLawn','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Pavers', 'Demolition', 'Garbage','Concreting','Rubber', 'Gravelling', 'SnowRemoval', 'Excavation'];
       var items = [];
       worksCategories.forEach(function(key){
         var cat = categories[key];
