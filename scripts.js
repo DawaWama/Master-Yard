@@ -1424,10 +1424,10 @@
     }
 
     if(worksGallery){
-      var worksCategories = ['Flagstone','Landscape','Lawn','RolledLawn','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Pavers', 'Demolition', 'Garbage','Concreting','Rubber', 'Gravelling', 'SnowRemoval', 'Excavation'];
+      var worksCategories = ['Flagstone','Landscape','Lawn','RolledLawn','Curb','Drainage', 'Lighting', 'Steps', 'Pit', 'Apron', 'Grading', 'Pavers', 'Demolition', 'Garbage','Concreting','Rubber', 'Gravelling', 'SnowRemoval', 'Excavation', 'asphaltMillings', 'potholeRepair', 'plotAsphaltPaving', 'asphaltPavingAreas', 'roadAsphaltPaving'];
       var items = [];
       worksCategories.forEach(function(key){
-        var cat = categories[key];
+        var cat = categories[key] || asphaltSubcategories[key];
         if(!cat || !cat.images) return;
         cat.images.forEach(function(img){
           items.push('<div class="gallery-item"><img src="' + cat.folder + img + '" alt="' + cat.title + '"></div>');
