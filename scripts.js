@@ -1377,7 +1377,7 @@
         description: 'Дренажные работы «Под Ключ».',
         thumbnail: 'thumbnails/drainage.webp',
         content: drainageContent,
-        images: ['drainage_1.avif', 'drainage_2.avif', 'drainage_3.avif', 'drainage_4.avif', 'drainage_5.avif', 'drainage_6.avif']
+        images: ['drainage_1.avif', 'drainage_2.avif', 'drainage_3.avif', 'drainage_4.avif', 'drainage_5.avif', 'drainage_6.avif', 'drainage_7.avif']
       },
       'Concreting': {
         title: '',
