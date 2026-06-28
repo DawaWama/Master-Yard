@@ -150,7 +150,7 @@ a {
 
 .hero .hero-actions.header-actions {
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
 }
 
