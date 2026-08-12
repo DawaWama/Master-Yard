@@ -283,6 +283,107 @@ h3 {
   margin: 0 0 1rem;
 }
 
+.client-reviews {
+  margin-top: 2.5rem;
+}
+
+.client-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.client-review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 12px 30px rgba(11, 77, 54, 0.05);
+}
+
+.client-review-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.client-review-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--light);
+  box-shadow: 0 4px 12px rgba(11, 77, 54, 0.08);
+}
+
+.client-review-info {
+  min-width: 0;
+  flex: 1;
+}
+
+.client-review-name {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  color: var(--primary);
+}
+
+.client-review-stars {
+  color: #e8a317;
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.client-review-meta,
+.client-review-service {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.client-review-service {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.client-review-text p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.client-review-text:not(.is-expanded) p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.client-review-toggle {
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--primary);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.client-review-toggle:hover,
+.client-review-toggle:focus-visible {
+  color: var(--secondary);
+}
+
 .service-detail {
   margin: 1.25rem 0 2rem;
   display: flex;
@@ -1116,6 +1217,19 @@ h3 {
 
   .service-about {
     padding: 1rem;
+  }
+
+  .client-reviews {
+    margin-top: 2rem;
+  }
+
+  .client-review-card {
+    padding: 1rem;
+  }
+
+  .client-review-avatar {
+    width: 52px;
+    height: 52px;
   }
 
   .gallery-section-heading {
